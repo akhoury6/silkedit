@@ -1,0 +1,1418 @@
+---
+playerData:
+  churchRhinoKilled: true
+  rhinoRampageCompleted: true
+  rhinoRuckus: true
+  didRhinoRuckus: true
+  EnemyJournalKillData:
+    list:
+    - Name: MossBone Crawler
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Mossgrub
+      Position: 0
+    - Name: MossBone Fly
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Mossmir
+      Position: 2
+    - Name: Bone Roller
+      Record:
+        Kills: 30
+        HasBeenSeen: true
+      GameName: Mawling
+      Position: 17
+    - Name: Mossbone Mother
+      Record:
+        Kills: 3
+        HasBeenSeen: true
+      GameName: Moss Mother
+      Position: 3
+    - Name: Bone Goomba
+      Record:
+        Kills: 35
+        HasBeenSeen: true
+      GameName: Skull Scuttler
+      Position: 5
+    - Name: Bone Goomba Large
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Skull Brute
+      Position: 7
+    - Name: Bone Flyer
+      Record:
+        Kills: 30
+        HasBeenSeen: true
+      GameName: Beastfly
+      Position: 10
+    - Name: Bone Circler
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Caranid
+      Position: 12
+    - Name: Bone Crawler
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Kilik
+      Position: 9
+    - Name: Pilgrim Moss Spitter
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Overgrown Pilgrim
+      Position: 35
+    - Name: Pilgrim 01
+      Record:
+        Kills: 35
+        HasBeenSeen: true
+      GameName: Pilgrim Pouncer
+      Position: 26
+    - Name: Pilgrim 03
+      Record:
+        Kills: 35
+        HasBeenSeen: true
+      GameName: Pilgrim Groveller
+      Position: 25
+    - Name: Aspid Collector
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Aknid
+      Position: 4
+    - Name: Bone Beast
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Bell Beast
+      Position: 24
+    - Name: Pilgrim Fly
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Winged Pilgrim
+      Position: 30
+    - Name: Dock Worker
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Smelt Shoveller
+      Position: 40
+    - Name: Dock Flyer
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Flintstone Flyer
+      Position: 41
+    - Name: Pilgrim StaffWielder
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Pilgrim Guide
+      Position: 34
+    - Name: Bone Hunter Throw
+      Record:
+        Kills: 2
+        HasBeenSeen: true
+      GameName: Skarrgard
+      Position: 57
+    - Name: Bone Hunter Tiny
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Skarrlid
+      Position: 52
+    - Name: Bone Hunter Buzzer
+      Record:
+        Kills: 30
+        HasBeenSeen: true
+      GameName: Skarrwing
+      Position: 53
+    - Name: Bone Hunter
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Skarr Stalker
+      Position: 55
+    - Name: Bone Hunter Child
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Skarr Scout
+      Position: 54
+    - Name: Bone Hunter Fly
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Spear Skarr
+      Position: 56
+    - Name: Bone Hopper
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Hardbone Hopper
+      Position: 14
+    - Name: Tar Slug
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Lavalug
+      Position: 38
+    - Name: Shield Dock Worker
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Smokerock Sifter
+      Position: 43
+    - Name: Dock Bomber
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Flintflame Flyer
+      Position: 42
+    - Name: Dock Charger
+      Record:
+        Kills: 5
+        HasBeenSeen: true
+      GameName: Deep Diver
+      Position: 44
+    - Name: Fields Goomba
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Fertid
+      Position: 49
+    - Name: Bone Circler Vicious
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Vicious Caranid
+      Position: 13
+    - Name: Lace
+      Record:
+        Kills: 2
+        HasBeenSeen: true
+      GameName: Lace
+      Position: 232
+    - Name: Fields Flock Flyers
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Brushflit
+      Position: 48
+    - Name: Fields Flyer
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Flapping Fertid
+      Position: 50
+    - Name: Spine Floater
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Hoker
+      Position: 19
+    - Name: Pilgrim 02
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Pilgrim Hulk
+      Position: 28
+    - Name: Pilgrim 04
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Pilgrim Hornfly
+      Position: 27
+    - Name: Song Golem
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Fourth Chorus
+      Position: 51
+    - Name: Pilgrim Bell Thrower
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Pilgrim Bellbearer
+      Position: 29
+    - Name: Crow
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Craw
+      Position: 71
+    - Name: Crowman
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Tallcraw
+      Position: 72
+    - Name: Mite
+      Record:
+        Kills: 30
+        HasBeenSeen: true
+      GameName: Mite
+      Position: 61
+    - Name: Crowman Dagger
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Squatcraw
+      Position: 73
+    - Name: Farmer Catcher
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Dreg Catcher
+      Position: 64
+    - Name: Farmer Centipede
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Silk Snipper
+      Position: 65
+    - Name: Farmer Scissors
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Thread Raker
+      Position: 66
+    - Name: Mitefly
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Fluttermite
+      Position: 62
+    - Name: Rock Roller
+      Record:
+        Kills: 3
+        HasBeenSeen: true
+      GameName: Flintbeetle
+      Position: 20
+    - Name: Pond Skater
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Pond Skipper
+      Position: 97
+    - Name: Pilgrim Fisher
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Pondcatcher
+      Position: 98
+    - Name: Shellwood Gnat
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Shellwood Gnat
+      Position: 99
+    - Name: Shellwood Wasp
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Wood Wasp
+      Position: 100
+    - Name: Flower Drifter
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Phacia
+      Position: 105
+    - Name: Stick Insect Charger
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Splinterhorn
+      Position: 102
+    - Name: Stick Insect
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Splinter
+      Position: 101
+    - Name: Bloom Shooter
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Pollenica
+      Position: 106
+    - Name: Bloom Puncher
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Gahlia
+      Position: 107
+    - Name: Stick Insect Flyer
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Splinterbark
+      Position: 103
+    - Name: Splinter Queen
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Sister Splinter
+      Position: 104
+    - Name: Rosary Pilgrim
+      Record:
+        Kills: 2
+        HasBeenSeen: true
+      GameName: Covetous Pilgrim
+      Position: 36
+    - Name: Pilgrim Bellthrower Fly
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Winged Pilgrim Bellbearer
+      Position: 32
+    - Name: Bell Goomba
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Furm
+      Position: 110
+    - Name: Bell Fly
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Winged Furm
+      Position: 111
+    - Name: Skull King
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Skull Tyrant
+      Position: 8
+    - Name: Pilgrim 05
+      Record:
+        Kills: 5
+        HasBeenSeen: true
+      GameName: Elder Pilgrim
+      Position: 31
+    - Name: Crypt Worm
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Gromling
+      Position: 22
+    - Name: Slab Fly Large
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Wardenfly
+      Position: 192
+    - Name: Bone Flyer Giant
+      Record:
+        Kills: 2
+        HasBeenSeen: true
+      GameName: Savage Beastfly
+      Position: 11
+    - Name: Gnat Giant
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Mitemother
+      Position: 63
+    - Name: Roachfeeder Short
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Roachcatcher
+      Position: 82
+    - Name: Dustroach
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Muckroach
+      Position: 80
+    - Name: Spinner Boss
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Widow
+      Position: 229
+    - Name: Coral Judge
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Judge
+      Position: 117
+    - Name: Blade Spider
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Pharlid
+      Position: 112
+    - Name: Pilgrim Hiker
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Pilgrim Hiker
+      Position: 33
+    - Name: Coral Conch Shooter
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Driznit
+      Position: 120
+    - Name: Coral Conch Driller Giant
+      Record:
+        Kills: 2
+        HasBeenSeen: true
+      GameName: Great Conchfly
+      Position: 124
+    - Name: Roachfeeder Tall
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Roachfeeder
+      Position: 83
+    - Name: Roachkeeper
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Roachkeeper
+      Position: 84
+    - Name: Last Judge
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Last Judge
+      Position: 118
+    - Name: Understore Poker
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Underpoke
+      Position: 148
+    - Name: Understore Thrower
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Underloft
+      Position: 149
+    - Name: Understore Small
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Underworker
+      Position: 145
+    - Name: Citadel Bat
+      Record:
+        Kills: 30
+        HasBeenSeen: true
+      GameName: Drapefly
+      Position: 141
+    - Name: Pilgrim 03 Understore
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Underscrub
+      Position: 146
+    - Name: Understore Heavy
+      Record:
+        Kills: 4
+        HasBeenSeen: true
+      GameName: Undercrank
+      Position: 150
+    - Name: Pilgrim Staff Understore
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Undersweep
+      Position: 147
+    - Name: Mite Heavy
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Drapemite
+      Position: 143
+    - Name: Song Pilgrim 01
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Envoy
+      Position: 151
+    - Name: Song Reed
+      Record:
+        Kills: 30
+        HasBeenSeen: true
+      GameName: Reed
+      Position: 158
+    - Name: Pilgrim 01 Song
+      Record:
+        Kills: 30
+        HasBeenSeen: true
+      GameName: Choir Pouncer
+      Position: 152
+    - Name: Song Pilgrim 03
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Choristor
+      Position: 157
+    - Name: Pilgrim 03 Song
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Choir Bellbearer
+      Position: 154
+    - Name: Song Automaton Fly
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Cogworker
+      Position: 174
+    - Name: Pilgrim 02 Song
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Choir Hornhead
+      Position: 153
+    - Name: Pilgrim 04 Song
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Choir Flyer
+      Position: 155
+    - Name: Pilgrim Stomper Song
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Choir Elder
+      Position: 156
+    - Name: Song Reed Grand
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Grand Reed
+      Position: 159
+    - Name: Clockwork Dancer
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Cogwork Dancers
+      Position: 180
+    - Name: Song Automaton 01
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Cogwork Choirbug
+      Position: 176
+    - Name: Song Automaton Goomba
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Cogwork Crawler
+      Position: 173
+    - Name: Song Automaton Fly Spike
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Cogwork Spine
+      Position: 175
+    - Name: Song Automaton 02
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Cogwork Cleanser
+      Position: 177
+    - Name: Song Automaton Shield
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Cogwork Defender
+      Position: 178
+    - Name: Song Handmaiden
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Clawmaiden
+      Position: 161
+    - Name: Scholar
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Vaultkeeper
+      Position: 184
+    - Name: Scrollkeeper
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Scrollreader
+      Position: 183
+    - Name: Lightbearer
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Lampbearer
+      Position: 182
+    - Name: Song Automaton Ball
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Cogwork Clapper
+      Position: 179
+    - Name: Vampire Gnat
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Moorwing
+      Position: 67
+    - Name: Weaver Servitor
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Servitor Ignim
+      Position: 197
+    - Name: Blade Spider Hang
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Pharlid Diver
+      Position: 113
+    - Name: Bone Thumper
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Marrowmaw
+      Position: 18
+    - Name: Bone Goomba Bounce Fly
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Skullwing
+      Position: 6
+    - Name: Song Threaded Husk
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Dreg Husk
+      Position: 166
+    - Name: Song Creeper
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Mortician
+      Position: 169
+    - Name: Understore Automaton
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Cogwork Underfly
+      Position: 171
+    - Name: Understore Automaton EX
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Cogwork Hauler
+      Position: 172
+    - Name: Bone Spitter
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Tarmite
+      Position: 16
+    - Name: Slab Prisoner Leaper New
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Penitent
+      Position: 187
+    - Name: Slab Fly Mid
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Guardfly
+      Position: 191
+    - Name: Slab Fly Small
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Scabfly
+      Position: 190
+    - Name: Understore Mite Giant
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Giant Drapemite
+      Position: 144
+    - Name: Trobbio
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Trobbio
+      Position: 185
+    - Name: Song Pilgrim Maestro
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Maestro
+      Position: 164
+    - Name: Song Administrator
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Minister
+      Position: 163
+    - Name: Song Heavy Sentry
+      Record:
+        Kills: 3
+        HasBeenSeen: true
+      GameName: Choir Clapper
+      Position: 160
+    - Name: Crystal Drifter
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Mnemonid
+      Position: 195
+    - Name: Peaks Drifter
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Driftlin
+      Position: 194
+    - Name: Weaver Servitor Large
+      Record:
+        Kills: 5
+        HasBeenSeen: true
+      GameName: Servitor Boran
+      Position: 198
+    - Name: Song Pilgrim 02
+      Record:
+        Kills: 3
+        HasBeenSeen: true
+      GameName: Surgeon
+      Position: 168
+    - Name: Bone Worm
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Grom
+      Position: 23
+    - Name: Song Threaded Husk Spin
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Dregwheel
+      Position: 167
+    - Name: Conductor Boss
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: The Unravelled
+      Position: 170
+    - Name: Wisp
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Wisp
+      Position: 68
+    - Name: Farmer Wisp
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Burning Bug
+      Position: 69
+    - Name: Wisp Pyre Effigy
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Father of the Flame
+      Position: 70
+    - Name: Rhino
+      Record:
+        Kills: 2
+        HasBeenSeen: true
+      GameName: Rhinogrund
+      Position: 21
+    - Name: Citadel Bat Large
+      Record:
+        Kills: 4
+        HasBeenSeen: true
+      GameName: Drapelord
+      Position: 142
+    - Name: Coral Goomba Large
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Crustcrag
+      Position: 126
+    - Name: Coral Conch Shooter Heavy
+      Record:
+        Kills: 14
+        HasBeenSeen: true
+      GameName: Driznarga
+      Position: 121
+    - Name: MossBone Crawler Fat
+      Record:
+        Kills: 3
+        HasBeenSeen: true
+      GameName: Massive Mossgrub
+      Position: 1
+    - Name: Arborium Keeper
+      Record:
+        Kills: 2
+        HasBeenSeen: true
+      GameName: Memoria
+      Position: 162
+    - Name: Giant Flea
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Huge Flea
+      Position: 226
+    - Name: Slab Fly Small Fresh
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Freshfly
+      Position: 189
+    - Name: Slab Fly Broodmother
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Broodmother
+      Position: 193
+    - Name: Roachkeeper Chef Tiny
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Roachserver
+      Position: 85
+    - Name: Roachkeeper Chef
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Disgraced Chef Lugoli
+      Position: 86
+    - Name: Coral Spike Goomba
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Coral Furm
+      Position: 119
+    - Name: Coral Conch Stabber
+      Record:
+        Kills: 16
+        HasBeenSeen: true
+      GameName: Pokenabbin
+      Position: 122
+    - Name: Coral Conch Driller
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Conchfly
+      Position: 123
+    - Name: Swamp Drifter
+      Record:
+        Kills: 25
+        HasBeenSeen: true
+      GameName: Mothleaf Lagnia
+      Position: 88
+    - Name: Swamp Mosquito
+      Record:
+        Kills: 30
+        HasBeenSeen: true
+      GameName: Swamp Squit
+      Position: 90
+    - Name: Swamp Goomba
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Miremite
+      Position: 89
+    - Name: Wraith
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Wraith
+      Position: 87
+    - Name: Phantom
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Phantom
+      Position: 231
+    - Name: Swamp Muckman
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Stilkin
+      Position: 92
+    - Name: Rosary Thief
+      Record:
+        Kills: 4
+        HasBeenSeen: true
+      GameName: Snitchfly
+      Position: 37
+    - Name: Bloat Roach
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Bloatroach
+      Position: 81
+    - Name: Dustroach Pollywog
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Slubberlug
+      Position: 79
+    - Name: Swamp Muckman Tall
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Stilkin Trapper
+      Position: 93
+    - Name: Swamp Ductsucker
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Ductsucker
+      Position: 96
+    - Name: Swamp Mosquito Skinny
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Spit Squit
+      Position: 91
+    - Name: Swamp Barnacle
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Barnak
+      Position: 95
+    - Name: Swamp Shaman
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Groal the Great
+      Position: 94
+    - Name: First Weaver
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: First Sinner
+      Position: 230
+    - Name: Silk Boss
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Grand Mother Silk
+      Position: 233
+    - Name: Dock Guard Thrower
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Forebrothers Signis & Gron
+      Position: 45
+    - Name: Tar Slug Huge
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Lavalarga
+      Position: 39
+    - Name: Song Knight
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Second Sentinel
+      Position: 165
+    - Name: Zap Core Enemy
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Voltvyrm
+      Position: 140
+    - Name: Shell Fossil Mimic
+      Record:
+        Kills: 3
+        HasBeenSeen: true
+      GameName: Shardillard
+      Position: 114
+    - Name: Giant Centipede
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Bell Eater
+      Position: 225
+    - Name: Black Thread Core
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Void Mass
+      Position: 219
+    - Name: Abyss Crawler
+      Record:
+        Kills: 16
+        HasBeenSeen: true
+      GameName: Shadow Creeper
+      Position: 214
+    - Name: Gloomfly
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Gloomsac
+      Position: 216
+    - Name: Gloom Beast
+      Record:
+        Kills: 4
+        HasBeenSeen: true
+      GameName: Gargant Gloom
+      Position: 217
+    - Name: Abyss Crawler Large
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Shadow Charger
+      Position: 215
+    - Name: Void Tendrils
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Void Tendrils
+      Position: 218
+    - Name: Crystal Drifter Giant
+      Record:
+        Kills: 3
+        HasBeenSeen: true
+      GameName: Mnemonord
+      Position: 196
+    - Name: Pinstress Boss
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Pinstress
+      Position: 228
+    - Name: Bone Hopper Giant
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Hardbone Elder
+      Position: 15
+    - Name: Bone Hunter Chief
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Last Claw
+      Position: 59
+    - Name: Hunter Queen
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Skarrsinger Karmelita
+      Position: 60
+    - Name: Song Scholar Acolyte
+      Record:
+        Kills: 20
+        HasBeenSeen: true
+      GameName: Vaultborn
+      Position: 181
+    - Name: Seth
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Shrine Guardian Seth
+      Position: 108
+    - Name: Flower Queen
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Nyleth
+      Position: 109
+    - Name: Crowman Juror Tiny
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Craw Juror
+      Position: 74
+    - Name: Crowman Juror
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Tallcraw Juror
+      Position: 75
+    - Name: Crowman Dagger Juror
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Squatcraw Juror
+      Position: 76
+    - Name: Crawfather
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Crawfather
+      Position: 77
+    - Name: Garmond
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Lost Garmond
+      Position: 227
+    - Name: Bone Hunter Trapper
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Gurr the Outcast
+      Position: 58
+    - Name: Roof Crab
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Craggler
+      Position: 47
+    - Name: Lifeblood Fly
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Winged Lifeseed
+      Position: 199
+    - Name: Bone Worm BlueBlood
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Plasmid
+      Position: 200
+    - Name: Bone Worm BlueTurret
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Plasmidas
+      Position: 201
+    - Name: Blue Assistant
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Plasmified Zango
+      Position: 202
+    - Name: Tormented Trobbio
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Tormented Trobbio
+      Position: 186
+    - Name: Hornet Dragonfly
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Pendra
+      Position: 205
+    - Name: Grass Goomba
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Leaf Roller
+      Position: 204
+    - Name: Lilypad Fly
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Leaf Glider
+      Position: 203
+    - Name: Grasshopper Fly
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Escalion
+      Position: 212
+    - Name: Dragonfly Large
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Pendragor
+      Position: 206
+    - Name: Lilypad Trap
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Nuphar
+      Position: 207
+    - Name: Grasshopper Child
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Kindanir
+      Position: 210
+    - Name: Grasshopper Slasher
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Verdanir
+      Position: 211
+    - Name: Cloverstag
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Cloverstag
+      Position: 208
+    - Name: Cloverstag White
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Palestag
+      Position: 209
+    - Name: Clover Dancer
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Clover Dancers
+      Position: 213
+    - Name: Coral Swimmer Small
+      Record:
+        Kills: 16
+        HasBeenSeen: true
+      GameName: Yuma
+      Position: 130
+    - Name: Coral Warrior
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Karaka
+      Position: 132
+    - Name: Coral Flyer Throw
+      Record:
+        Kills: 12
+        HasBeenSeen: true
+      GameName: Yago
+      Position: 134
+    - Name: Coral Swimmer Fat
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Kai
+      Position: 127
+    - Name: Coral Flyer
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Kakri
+      Position: 133
+    - Name: Coral Goombas
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Crustcrawler
+      Position: 125
+    - Name: Coral Hunter
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Alita
+      Position: 136
+    - Name: Coral Big Jellyfish
+      Record:
+        Kills: 3
+        HasBeenSeen: true
+      GameName: Yumama
+      Position: 131
+    - Name: Coral Brawler
+      Record:
+        Kills: 8
+        HasBeenSeen: true
+      GameName: Karak Gor
+      Position: 135
+    - Name: Spike Swimmer
+      Record:
+        Kills: 15
+        HasBeenSeen: true
+      GameName: Steelspine Kai
+      Position: 129
+    - Name: Coral Bubble Brute
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Corrcrust Karaka
+      Position: 137
+    - Name: Poke Swimmer
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Spinebeak Kai
+      Position: 128
+    - Name: Coral King
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Crust King Khann
+      Position: 138
+    - Name: White Palace Fly
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Wingmould
+      Position: 221
+    - Name: Centipede Trap
+      Record:
+        Kills: 30
+        HasBeenSeen: true
+      GameName: Garpid
+      Position: 222
+    - Name: Spike Lazy Flyer
+      Record:
+        Kills: 4
+        HasBeenSeen: true
+      GameName: Imoba
+      Position: 223
+    - Name: Surface Scuttler
+      Record:
+        Kills: 10
+        HasBeenSeen: true
+      GameName: Skrill
+      Position: 224
+    - Name: Coral Warrior Grey
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Watcher at the Edge
+      Position: 139
+    - Name: Small Crab
+      Record:
+        Kills: 3
+        HasBeenSeen: true
+      GameName: Cragglite
+      Position: 46
+    - Name: Maggots
+      Record:
+        Kills: 80
+        HasBeenSeen: true
+      GameName: Muckmaggot
+      Position: 78
+    - Name: Sand Centipede
+      Record:
+        Kills: 40
+        HasBeenSeen: true
+      GameName: Sandcarver
+      Position: 115
+    - Name: Coral Judge Child
+      Record:
+        Kills: 4
+        HasBeenSeen: true
+      GameName: Squirrm
+      Position: 116
+    - Name: Slab Prisoner Fly New
+      Record:
+        Kills: 6
+        HasBeenSeen: true
+      GameName: Puny Penitent
+      Position: 188
+    - Name: Abyss Mass
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Summoned Saviour
+      Position: 220
+    - Name: Lost Lace
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Lost Lace
+      Position: 234

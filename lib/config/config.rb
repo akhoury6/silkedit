@@ -1,0 +1,28 @@
+Rbcli::Configurate.config do
+  ##### Config (Optional) #####
+  # The built-in config will automatically pull in a config file to a hash and vice versa
+  # It can either be used immutably (as user-defined configuration) and/or to store application state
+  #
+  #   file:                 <string> or <array>            (Required) Provide either a specific config file location or a hierarchy to search. If creating a :null type of config this can be omitted.
+  #   type:                 (:yaml|:json|:ini|:toml|:null) (Optional) Select which backend/file format to use. If the file has an associated extension (i.e. '.yaml') then this can be omitted.
+  #   schema_file:          <string>                       (Optional) The file location of a JSON Schema (https://json-schema.org). If provided, the config will automatically be validated. (default: nil)
+  #   schema_hash:          <string>                       (Optional) If you'd like to provide a JSON schema hash directly instead, do it here. May not use `schema_hash` and `schema_file` together. (default: nil)
+  #   save_on_exit:         (true|false)                   (Optional) Save changes to the config file on exit (default: false)
+  #   create_if_not_exists: (true|false)                   (Optional) Create the file using default values if it is not found on the system (default: false)
+  #   suppress_errors:      (true|false)                   (Optional) If set to false, the application will halt on any errors in loading the config. If set to true, defaults will be provided (default: true)
+  #   banner:               <string>                       (Optional) Define a banner to be placed at the top of the config file on disk. Note that it will only be written to backends that support comments
+  #   defaults:             <hash>                         (Optional) Defaults set here will be provided to your application if any values are missing in the config.
+  #                                                                     They will also be used to create new config files when the flag `create_if_not_exists` is set to true.
+  #   skeleton:             <string>                       (Optional) If a skeleton is provided, it will be used as the config source when creating new config files on disk instead of the defaults. (default: nil)`
+  #                                                                     Please provide the text exactly as you want the user to see it in the config file (plus the banner if provided).
+  file [File.join(Silkedit::LIBDIR, 'config', 'silkedit.yaml')]
+  type :yaml
+  # schema_file nil
+  # schema_hash nil
+  save_on_exit false
+  create_if_not_exists false
+  suppress_errors true
+  # banner nil
+  # defaults({ editor_command: "vi '%FILE%'", permasaves: {} })
+  # skeleton "eJzT1dXlSsvPt1JISiziAhFWSYlVAD1hBjs=".decompress
+end

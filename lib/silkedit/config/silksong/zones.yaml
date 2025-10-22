@@ -1,0 +1,1686 @@
+---
+_shortcuts:
+  bonebottom: mossgrove.bonebottom
+  druid: mossgrove.druid
+  marrow: marrow.station_bellshrine
+  docks: deepdocks.forgedaughter
+  sauna: deepdocks.sauna
+  farfields: farfields.station
+  seamstress: farfields.seamstress
+  huntersmarch: huntersmarch.trappedbench
+  greymoor: greymoor.bellshrine
+  halfwayhome: greymoor.halfwayhome
+  yarnaby: greymoor.yarnaby
+  bellhart: bellhart.bench
+  bellhome: bellhart.bellhome
+  widow: bellhart.widow_spawn
+  shellwood: shellwood.station_bellshrine
+  alchemist: wormways.alchemist
+  blastedsteps: blastedsteps.station
+  pinstress: blastedsteps.pinstress
+  sinnersroad: sinnersroad.west
+  bilewater: bilewater.station
+  exhaustorgan: bilewater.exhaustorgan
+  ducts: putrifiedducts.station
+  cogcore: cogcore.bench
+  songclave: songclave.bench
+  spa: choralchambers.spa
+  highhalls: highhalls.bench
+  terminus: cradle.terminus
+  architect: underworks.architect
+  faypeak: fay.peak
+  fleacamp1: marrow.fleacamp_1
+  fleacamp2: greymoor.fleacamp_2
+  fleacamp3: grandgate.fleacamp_3
+  fleatopia: putrifiedducts.fleatopia
+  fleagames: putrifiedducts.fleagames
+  surface: bordercaves.bench
+  weavenest_a: weavenest_atla.bench
+  weavenest_c: farfields.weavenest_cindril
+  abyss: abyss.south
+abyss:
+  bell_fixed:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Room_Diving_Bell_Abyss_Fixed
+        mapZone: 37
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  north:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Abyss_09
+        mapZone: 37
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  south:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Abyss_12
+        mapZone: 37
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+bellhart:
+  bellhome:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Belltown_Room_Spare
+        mapZone: 10
+        extraRestZone: 16
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs:
+      BelltownHouseUnlocked: true
+    hard_reqs: { }
+    min_act: 2
+  bench:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Belltown
+        mapZone: 10
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  widow_bellshrine:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Belltown_Shrine
+        mapZone: 10
+        extraRestZone: 9
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      playerData:
+        bellShrineBellhart: true
+        spinnerEncounter: 0
+        encounteredSpinner: true
+        spinnerDefeated: true
+        SpinnerDefeatedTimePassed: true
+      sceneData:
+        persistentInts:
+          serializedList:
+          - SceneName: Belltown_Shrine
+            ID: Bellshrine Sequence Bellhart
+            Value: 3
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  widow_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Belltown_Shrine
+        mapZone: 10
+        extraRestZone: 9
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+bilewater:
+  bilehaven:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Shadow_18
+        mapZone: 36
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  east:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Shadow_08
+        mapZone: 36
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  exhaustorgan:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Organ_01
+        mapZone: 6
+        extraRestZone: 6
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Organ_01
+            ID: Organ Webbed Bench
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  station:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellway_Shadow
+        mapZone: 36
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Bellway_Shadow
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+blastedsteps:
+  pinstress:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Room_Pinstress
+        mapZone: 32
+        extraRestZone: 1
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  south:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Coral_02
+        mapZone: 32
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        hasActivatedBellBench: true
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Coral_02
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  station:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellway_08
+        mapZone: 32
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        activatedStepsUpperBellbench: true
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Bellway_08
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+bordercaves:
+  bench:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Cradle_Destroyed_Challenge_Bench
+        mapZone: 29
+        extraRestZone: 19
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+choralchambers:
+  center:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Song_18
+        mapZone: 6
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  northwest:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Hang_01
+        mapZone: 6
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  southwest:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Under_07b
+        mapZone: 6
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  spa:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Song_10
+        mapZone: 6
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+cogcore:
+  bench:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Cog_Bench
+        mapZone: 23
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Cog_Bench
+            ID: cog_lever
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 2
+  dancers_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Cog_Dancers
+        mapZone: 23
+        extraRestZone: 0
+        respawnMarkerName: Interim Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  melodytowers_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Cog_09
+        mapZone: 23
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+cradle:
+  destroyed:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Song_Tower_Destroyed
+        mapZone: 29
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  lace_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Song_Tower_01
+        mapZone: 29
+        extraRestZone: 0
+        respawnMarkerName: Silk Heart Memory Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  terminus:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Tube_Hub
+        mapZone: 6
+        extraRestZone: 5
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+deepdocks:
+  bell_fixed:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Room_Diving_Bell
+        mapZone: 15
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  bellshrine:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellshrine_05
+        mapZone: 15
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      playerData:
+        bellShrineWilds: true
+      sceneData:
+        persistentInts:
+          serializedList:
+          - SceneName: Bellshrine_05
+            ID: Bellshrine Sequence
+            Value: 3
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  dash_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Bone_East_05
+        mapZone: 16
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  forgedaughter:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Room_Forge
+        mapZone: 15
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  fromabyss:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Dock_06_Church
+        mapZone: 15
+        extraRestZone: 0
+        respawnMarkerName: RestBench (1)
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  sauna:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Dock_10
+        mapZone: 15
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  upper:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Dock_01
+        mapZone: 15
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Dock_01
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+farfields:
+  act3area:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bone_East_27
+        mapZone: 16
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  pilgrimsrest:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bone_East_10_Room
+        mapZone: 30
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  seamstress:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bone_East_Umbrella
+        mapZone: 16
+        extraRestZone: 2
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  sprintmaster:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Sprintmaster_Cave
+        mapZone: 16
+        extraRestZone: 20
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  station:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellway_03
+        mapZone: 16
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Bellway_03
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  upperentrance:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bone_East_15
+        mapZone: 16
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Bone_East_15
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  weavenest_cindril:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bone_East_Weavehome
+        mapZone: 16
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+fay:
+  cave:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellway_Peak
+        mapZone: 24
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Bellway_Peak
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 2
+  climb:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Peak_07
+        mapZone: 24
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  peak:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Peak_12
+        mapZone: 24
+        extraRestZone: 0
+        respawnMarkerName: RestBench (1)
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  shakra:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Peak_02
+        mapZone: 24
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        MapperLeftPeak: false
+    hard_reqs: {}
+    min_act: 2
+grandbellway:
+  station:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellway_City
+        mapZone: 6
+        extraRestZone: 17
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+grandgate:
+  fleacamp_3:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Coral_Judge_Arena
+        mapZone: 32
+        extraRestZone: 4
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        CaravanTroupeLocation: 2
+    hard_reqs: {}
+    min_act: 2
+greymoor:
+  bellshrine:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellshrine_02
+        mapZone: 3
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        bellShrineGreymoor: true
+      sceneData:
+        persistentInts:
+          serializedList:
+          - SceneName: Bellshrine_02
+            ID: Bellshrine Sequence
+            Value: 3
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  fleacamp_2:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Greymoor_08
+        mapZone: 3
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        CaravanTroupeLocation: 1
+    hard_reqs: {}
+    min_act: 1
+  halfwayhome:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Halfway_01
+        mapZone: 31
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  reaper_crest_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Greymoor_20c
+        mapZone: 3
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  shakra:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Greymoor_02
+        mapZone: 3
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      playerData:
+        MapperLeftGreymoor: false
+    hard_reqs: {}
+    min_act: 1
+  yarnaby_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Wisp_03
+        mapZone: 3
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+highhalls:
+  station:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Hang_06b
+        mapZone: 27
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+huntersmarch:
+  trappedbench:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Ant_17
+        mapZone: 11
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        antBenchTrapDefused: true
+    hard_reqs: {}
+    min_act: 1
+karak:
+  coraltower:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Coral_Tower_01
+        mapZone: 32
+        extraRestZone: 13
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  east:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellshrine_Coral
+        mapZone: 32
+        extraRestZone: 15
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+marrow:
+  entrance:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bone_01c
+        mapZone: 2
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Bone_01c
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  fleacamp_1:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bone_10
+        mapZone: 2
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        CaravanTroupeLocation: 0
+    hard_reqs: {}
+    min_act: 1
+  jail_pinchallenge:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bone_12
+        mapZone: 2
+        extraRestZone: 10
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      playerData:
+        IsPinGallerySetup: true
+    hard_reqs: {}
+    min_act: 1
+  station_bellshrine:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellshrine
+        mapZone: 2
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      playerData:
+        bellShrineBoneForest: true
+      sceneData:
+        persistentInts:
+          serializedList:
+          - SceneName: Bellshrine
+            ID: Bellshrine Sequence
+            Value: 3
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+memorium:
+  default:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Arborium_04
+        mapZone: 28
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+memory:
+  needolin:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Memory_Needolin
+        mapZone: 33
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+mossgrove:
+  bonebottom:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bonetown
+        mapZone: 12
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  chapel:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Tut_03
+        mapZone: 18
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  chapel_inside:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Tut_04
+        mapZone: 18
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  druid:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Mosstown_02c
+        mapZone: 19
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  gamestart_respawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Tut_01
+        mapZone: 13
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker Init
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  mosshome:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bone_04
+        mapZone: 19
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  shaman_crest_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Tut_05
+        mapZone: 18
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  silkspear_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Mosstown_02
+        mapZone: 19
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  wanderer_crest_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Chapel_Wanderer
+        mapZone: 12
+        extraRestZone: 3
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+putrifiedducts:
+  fleafestival:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Aqueduct_05
+        mapZone: 38
+        extraRestZone: 8
+        respawnMarkerName: RestBench Festival
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs:
+      playerData:
+        CaravanTroupeLocation: 3
+    hard_reqs:
+      playerData:
+        FleaGamesCanStart: true
+    min_act: 3
+  fleatopia:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Aqueduct_05
+        mapZone: 38
+        extraRestZone: 7
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      playerData:
+        CaravanTroupeLocation: 3
+    hard_reqs:
+      playerData:
+        FleaGamesCanStart: false
+    min_act: 2
+  huntress:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Room_Huntress
+        mapZone: 38
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  station:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellway_Aqueduct
+        mapZone: 38
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Bellway_Aqueduct
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 2
+shellwood:
+  center:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Shellwood_01b
+        mapZone: 4
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Shellwood_01b
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  clinggrip_respawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Shellwood_10
+        mapZone: 4
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  nyleth_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Shellwood_11b
+        mapZone: 4
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+  south:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Mosstown_03
+        mapZone: 4
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  station_bellshrine:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellshrine_03
+        mapZone: 4
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      playerData:
+        bellShrineShellwood: true
+      sceneData:
+        persistentInts:
+          serializedList:
+          - SceneName: Bellshrine_03
+            ID: Bellshrine Sequence
+            Value: 3
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  west:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Shellwood_08c
+        mapZone: 4
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Shellwood_08c
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  witch_crest_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Shellwood_25
+        mapZone: 4
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+sinnersroad:
+  east:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Dust_11
+        mapZone: 9
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        silkFarmBattle1_complete: true
+    hard_reqs: {}
+    min_act: 1
+  east_permadeathmode:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Dust_11
+        mapZone: 9
+        extraRestZone: 0
+        respawnMarkerName: RestBench (1)
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  west:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Dust_10
+        mapZone: 9
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        FixedDustBellBench: true
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Dust_10
+            ID: Breakable Wall
+            Value: true
+            Mutator: 0
+          - SceneName: Dust_10
+            ID: One Way Wall
+            Value: true
+            Mutator: 0
+          - SceneName: Dust_10
+            ID: bell_toll_machine
+            Value: true
+            Mutator: 0
+          - SceneName: Dust_10
+            ID: Secret Mask New
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+slab:
+  east:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Slab_20
+        mapZone: 7
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      playerData:
+        visitedSlab: true
+    hard_reqs: {}
+    min_act: 1
+  firstsinner_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Slab_10b
+        mapZone: 7
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 2
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Slab_05
+            ID: Slab Lock (2)
+            Value: true
+            Mutator: 0
+          - SceneName: Slab_03
+            ID: Slab Lock (4)
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 2
+  nw_inside:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Slab_16
+        mapZone: 7
+        extraRestZone: 0
+        respawnMarkerName: RestBench (1)
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs:
+      playerData:
+        visitedSlab: true
+    hard_reqs: {}
+    min_act: 1
+  nw_outside:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Slab_16
+        mapZone: 7
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        visitedSlab: true
+    hard_reqs: {}
+    min_act: 1
+  station:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Slab_06
+        mapZone: 7
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        visitedSlab: true
+    hard_reqs: {}
+    min_act: 1
+songclave:
+  bellshrine:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Bellshrine_Enclave
+        mapZone: 6
+        extraRestZone: 12
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs:
+      playerData:
+        bellShrineEnclave: true
+      sceneData:
+        persistentInts:
+          serializedList:
+          - SceneName: Bellshrine_Enclave
+            ID: Bellshrine Sequence
+            Value: 3
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 2
+  bench:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Song_Enclave
+        mapZone: 6
+        extraRestZone: 11
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      playerData:
+        visitedEnclave: true
+        citadelHalfwayComplete: true
+    hard_reqs: {}
+    min_act: 2
+underworks:
+  architect:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Under_17
+        mapZone: 22
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  harpoon_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Under_18
+        mapZone: 22
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  north_a:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Under_08
+        mapZone: 22
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  north_b:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Under_08
+        mapZone: 22
+        extraRestZone: 0
+        respawnMarkerName: RestBench (1)
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  north_c:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Under_08
+        mapZone: 22
+        extraRestZone: 0
+        respawnMarkerName: RestBench (2)
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  west:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Under_01b
+        mapZone: 22
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+verdania:
+  bench:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Clover_20
+        mapZone: 21
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 3
+weavenest:
+  atla_bench:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Weave_07
+        mapZone: 17
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 0
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Weave_12
+            ID: weaver_lift_power_chamber
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+  atla_eva_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Weave_10
+        mapZone: 17
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 2
+    soft_reqs:
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Weave_12
+            ID: weaver_lift_power_chamber
+            Value: true
+            Mutator: 0
+    hard_reqs: {}
+    min_act: 1
+whisperingvaults:
+  keeper:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Library_08
+        mapZone: 20
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+  south:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Library_10
+        mapZone: 20
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+whiteward:
+  default:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Ward_01
+        mapZone: 26
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+wispthicket:
+  default:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Wisp_04
+        mapZone: 35
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
+wormways:
+  alchemist:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Crawl_08
+        mapZone: 34
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+        respawnType: 1
+        hazardRespawnFacing: 1
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
+  sharpdart_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Crawl_05
+        mapZone: 34
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2

@@ -1,0 +1,1145 @@
+---
+cheats:
+  max_health:
+    data:
+      playerData:
+        health: 10
+        maxHealth: 25
+        maxHealthBase: 10
+  max_silk:
+    data:
+      playerData:
+        silk: 18
+        silkMax: 18
+        silkRegenMax: 3
+        HasSeenSilkHearts: true
+        IsSilkSpoolBroken: false
+  max_rosaries:
+    data:
+      playerData:
+        geo: 999999
+  max_weapon:
+    data:
+      playerData:
+        nailUpgrades: 4
+  max_tool_upgrades:
+    data:
+      playerData:
+        ToolPouchUpgrades: 4
+        ToolKitUpgrades: 4
+  max_liquids:
+    data:
+      playerData:
+        ToolLiquids:
+          savedData:
+          - Name: Flea Brew
+            Data:
+              RefillsLeft: 30
+              SeenEmptyState: false
+              UsedExtra: false
+          - Name: Lifeblood Syringe
+            Data:
+              RefillsLeft: 20
+              SeenEmptyState: false
+              UsedExtra: false
+  all_abilities:
+    data:
+      playerData:
+        hasSilkSpecial: true
+        hasHarpoonDash: true
+        hasNeedolin: true
+        hasNeedolinMemoryPowerup: true
+        hasDash: true
+        hasBrolly: true
+        hasWalljump: true
+        hasDoubleJump: true
+        hasChargeSlash: true
+        hasSuperJump: true
+        HasSeenDash: true
+        HasSeenWalljump: true
+        HasSeenSuperJump: true
+        HasSeenNeedolin: true
+        HasSeenNeedolinUp: true
+        HasSeenNeedolinDown: true
+        HasSeenHarpoon: true
+        UnlockedFastTravelTeleport: true
+  all_crests:
+    data:
+      playerData:
+        ToolEquips:
+          savedData:
+          - Name: Hunter
+            Data:
+              IsUnlocked: true
+              DisplayNewIndicator: false
+          - Name: Hunter_v2
+            Data:
+              IsUnlocked: true
+              DisplayNewIndicator: false
+          - Name: Hunter_v3
+            Data:
+              IsUnlocked: true
+              DisplayNewIndicator: false
+          - Name: Reaper
+            Data:
+              IsUnlocked: true
+              DisplayNewIndicator: false
+          - Name: Wanderer
+            Data:
+              IsUnlocked: true
+              DisplayNewIndicator: false
+          - Name: Warrior
+            Data:
+              IsUnlocked: true
+              DisplayNewIndicator: false
+          - Name: Toolmaster
+            Data:
+              IsUnlocked: true
+              DisplayNewIndicator: false
+          - Name: Witch
+            Data:
+              IsUnlocked: true
+              DisplayNewIndicator: false
+          - Name: Spell
+            Data:
+              IsUnlocked: true
+              DisplayNewIndicator: false
+  all_eva_upgrades:
+    data:
+      playerData:
+        UnlockedExtraBlueSlot: true
+        UnlockedExtraYellowSlot: true
+        ExtraToolEquips:
+          savedData:
+          - Name: Defend1
+            Data:
+              IsUnlocked: false
+          - Name: Explore1
+            Data:
+              IsUnlocked: false
+        HasSeenEvaHeal: true
+        MetCrestUpgrader: true
+        MetCrestUpgraderAct3: true
+        CrestPreUpgradeTalked: true
+        CrestPreUpgradeAdditional: true
+        CrestPurposeQueued: true
+        CrestTalkedPurpose: true
+        CrestUpgraderTalkedSnare: true
+        CrestUpgraderOfferedFinal: true
+        HasBoundCrestUpgrader: true
+  all_fasttravel:
+    data:
+      playerData:
+        UnlockedFastTravel: true
+        FastTravelNPCLocation: 1
+        UnlockedFastTravelTeleport: true
+        UnlockedDocksStation: true
+        UnlockedBoneforestEastStation: true
+        UnlockedGreymoorStation: true
+        UnlockedBelltownStation: true
+        UnlockedCoralTowerStation: true
+        UnlockedCityStation: true
+        UnlockedPeakStation: true
+        UnlockedShellwoodStation: true
+        UnlockedShadowStation: true
+        UnlockedAqueductStation: true
+        bellCentipedeAppeared: true
+        UnlockedSongTube: true
+        UnlockedUnderTube: true
+        UnlockedCityBellwayTube: true
+        UnlockedHangTube: true
+        UnlockedEnclaveTube: true
+        UnlockedArboriumTube: true
+  all_fleas:
+    data:
+      playerData:
+        uncagedGiantFlea: true
+        tamedGiantFlea: true
+        CaravanLechSaved: true
+        CaravanLechMet: true
+        CaravanLechReturnedToCaravan: true
+        CaravanLechSpaAcceptState: true
+        CaravanLechSpaAttacked: true
+        CaravanLechWoundedSpoken: true
+        CaravanLechAct3Convo: true
+        TroupeLeaderSpokenLech: true
+        FleasCollectedTargetOrder:
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - 0
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - 2
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - 1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        SavedFlea_Bone_06: true
+        SavedFlea_Dock_16: true
+        SavedFlea_Bone_East_05: true
+        SavedFlea_Bone_East_17b: true
+        SavedFlea_Ant_03: true
+        SavedFlea_Greymoor_15b: true
+        SavedFlea_Greymoor_06: true
+        SavedFlea_Shellwood_03: true
+        SavedFlea_Bone_East_10_Church: true
+        SavedFlea_Coral_35: true
+        SavedFlea_Dust_12: true
+        SavedFlea_Dust_09: true
+        SavedFlea_Belltown_04: true
+        SavedFlea_Crawl_06: true
+        SavedFlea_Slab_Cell: true
+        SavedFlea_Shadow_28: true
+        SavedFlea_Dock_03d: true
+        SavedFlea_Under_23: true
+        SavedFlea_Shadow_10: true
+        SavedFlea_Song_14: true
+        SavedFlea_Coral_24: true
+        SavedFlea_Peak_05c: true
+        SavedFlea_Library_09: true
+        SavedFlea_Song_11: true
+        SavedFlea_Library_01: true
+        SavedFlea_Under_21: true
+        SavedFlea_Slab_06: true
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: GLOBAL_SHARED
+            ID: Caravan Lech
+            Value: true
+            Mutator: 0
+        persistentInts:
+          serializedList:
+          - SceneName: Greymoor_24
+            ID: NPC
+            Value: 2
+            Mutator: 0
+  all_maps:
+    data:
+      playerData:
+        mapAllRooms: false
+        HasMossGrottoMap: true
+        HasWildsMap: true
+        HasBoneforestMap: true
+        HasDocksMap: true
+        HasGreymoorMap: true
+        HasBellhartMap: true
+        HasShellwoodMap: true
+        HasCrawlMap: true
+        HasHuntersNestMap: true
+        HasJudgeStepsMap: true
+        HasDustpensMap: true
+        HasSlabMap: true
+        HasPeakMap: true
+        HasCitadelUnderstoreMap: true
+        HasCoralMap: true
+        HasSwampMap: true
+        HasCloverMap: true
+        HasAbyssMap: true
+        HasHangMap: true
+        HasSongGateMap: true
+        HasHallsMap: true
+        HasWardMap: true
+        HasCogMap: true
+        HasLibraryMap: true
+        HasCradleMap: true
+        HasArboriumMap: true
+        HasAqueductMap: true
+        HasWeavehomeMap: true
+        hasPinBench: true
+        hasPinCocoon: false
+        hasPinShop: true
+        hasPinSpa: true
+        hasPinStag: true
+        hasPinTube: true
+        hasMarker: true
+        hasMarker_a: true
+        hasMarker_b: true
+        hasMarker_c: true
+        hasMarker_d: true
+        hasMarker_e: true
+  all_spells:
+    data:
+      playerData:
+        hasNeedleThrow: true
+        hasThreadSphere: true
+        hasParry: true
+        hasSilkCharge: true
+        hasSilkBomb: true
+        hasSilkBossNeedle: true
+        Tools:
+          savedData:
+          - Name: Silk Spear
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Thread Sphere
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Parry
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Silk Charge
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Silk Bomb
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Silk Boss Needle
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+  all_tools:
+    data:
+      playerData:
+        ArchitectMentionedWebShot: true
+        ForgeDaughterMentionedWebShot: true
+        Tools:
+          savedData:
+          - Name: Bone Necklace
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Compass
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Rosary Magnet
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Straight Pin
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 24
+          - Name: Lava Charm
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Sting Shard
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 12
+          - Name: Flintstone
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 6
+          - Name: Bell Bind
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Flea Brew
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 6
+          - Name: Weighted Anklet
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Tri Pin
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 20
+          - Name: Mosscreep Tool 1
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Harpoon
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 20
+          - Name: Shell Satchel
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Poison Pouch
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Dead Mans Purse
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Curve Claws
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 16
+          - Name: Fractured Mask
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 1
+          - Name: Pimpilo
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 6
+          - Name: Magnetite Dice
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Barbed Wire
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Tack
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 10
+          - Name: Screw Attack
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 18
+          - Name: Quickbind
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Cogwork Saw
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 10
+          - Name: Brolly Spike
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Scuttlebrace
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Multibind
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Spool Extender
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Wallcling
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Dazzle Bind
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Rosary Cannon
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 80
+          - Name: Silk Snare
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 10
+          - Name: White Ring
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Extractor
+            Data:
+              IsUnlocked: true
+              IsHidden: true
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Lifeblood Syringe
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 6
+          - Name: Sprintmaster
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Wisp Lantern
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Cogwork Flier
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 8
+          - Name: Lightning Rod
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 10
+          - Name: Musician Charm
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Mosscreep Tool 2
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Thief Charm
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Thief Claw
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Quick Sling
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Longneedle
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Maggot Charm
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: WebShot Weaver
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 16
+          - Name: WebShot Forge
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 30
+          - Name: WebShot Architect
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 24
+          - Name: Revenge Crystal
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Shakra Ring
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 20
+          - Name: Flea Charm
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Reserve Bind
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 1
+          - Name: Zap Imbuement
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Conch Drill
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 16
+          - Name: Pinstress Tool
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+          - Name: Curve Claws Upgraded
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 16
+          - Name: Dazzle Bind Upgraded
+            Data:
+              IsUnlocked: true
+              IsHidden: false
+              HasBeenSeen: true
+              HasBeenSelected: false
+              AmountLeft: 0
+        ToolLiquids:
+          savedData:
+          - Name: Flea Brew
+            Data:
+              RefillsLeft: 30
+              SeenEmptyState: false
+              UsedExtra: false
+          - Name: Lifeblood Syringe
+            Data:
+              RefillsLeft: 20
+              SeenEmptyState: false
+              UsedExtra: false
+        Collectables:
+          savedData:
+          - Name: Plasmium Gland
+            Data:
+              Amount: 1
+              IsSeenMask: 0
+              AmountWhileHidden: 0
+  quill_none:
+    data:
+      playerData:
+        hasQuill: false
+        QuillState: 0
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Library_13b
+            ID: Collectable Item Pickup - Quill Red
+            Value: false
+            Mutator: 0
+          - SceneName: Library_13b
+            ID: Collectable Item Pickup - Quill Purple
+            Value: false
+            Mutator: 0
+  quill_white:
+    data:
+      playerData:
+        hasQuill: true
+        QuillState: 1
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Library_13b
+            ID: Collectable Item Pickup - Quill Red
+            Value: false
+            Mutator: 0
+          - SceneName: Library_13b
+            ID: Collectable Item Pickup - Quill Purple
+            Value: false
+            Mutator: 0
+  quill_red:
+    data:
+      playerData:
+        hasQuill: true
+        QuillState: 2
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Library_13b
+            ID: Collectable Item Pickup - Quill Red
+            Value: true
+            Mutator: 0
+          - SceneName: Library_13b
+            ID: Collectable Item Pickup - Quill Purple
+            Value: false
+            Mutator: 0
+  quill_purple:
+    data:
+      playerData:
+        hasQuill: true
+        QuillState: 3
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Library_13b
+            ID: Collectable Item Pickup - Quill Red
+            Value: false
+            Mutator: 0
+          - SceneName: Library_13b
+            ID: Collectable Item Pickup - Quill Purple
+            Value: true
+            Mutator: 0
+  easy_dice_game_win:
+    data:
+      playerData:
+        dicePilgrimBank: 0
+  easy_flea_games_win:
+    data:
+      playerData:
+        fleaGames_juggling_played: true
+        fleaGames_juggling_highscore: 56
+        fleaGames_bouncing_played: true
+        fleaGames_bouncing_highscore: 69
+        fleaGames_dodging_played: true
+        fleaGames_dodging_highscore: 96
+  complete_mushroom_quest:
+    data:
+      playerData:
+        MushroomQuestFound1: true
+        MushroomQuestFound2: true
+        MushroomQuestFound3: true
+        MushroomQuestFound4: true
+        MushroomQuestFound5: true
+        MushroomQuestFound6: true
+        MushroomQuestFound7: true
+        QuestCompletionData:
+          savedData:
+          - Name: Mr Mushroom
+            Data:
+              HasBeenSeen: true
+              IsAccepted: true
+              CompletedCount: 0
+              IsCompleted: true
+              WasEverCompleted: false
+  unlock_terminus_door:
+    data:
+      playerData:
+        laceTowerDoorOpened: true
+      sceneData:
+        persistentBools:
+          serializedList:
+          - SceneName: Tube_Hub
+            ID: Understore Lever
+            Value: true
+            Mutator: 0
+          - SceneName: Tube_Hub
+            ID: cradle_pipe_trapdoor
+            Value: true
+            Mutator: 0
+  give_consumables:
+    data:
+      playerData:
+        GrowstoneState: 3
+        GrowstoneTimer: 1.0
+        Collectables:
+          savedData:
+          - Name: Rosary_Set_Frayed
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Rosary_Set_Small
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Rosary_Set_Medium
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Rosary_Set_Large
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Rosary_Set_Huge_White
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Shard Pouch
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Great Shard
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Pristine Core
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Fixer Idol
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Silk Grub
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Growstone
+            Data:
+              Amount: 1
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+  give_farsight:
+    data:
+      playerData:
+        ConstructedFarsight: true
+reference:
+  full_crests:
+    playerData:
+      CurrentCrestID: Hunter_v3
+      ToolEquips:
+        savedData:
+        - Name: Hunter
+          Data:
+            IsUnlocked: true
+            Slots:
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            DisplayNewIndicator: false
+        - Name: Reaper
+          Data:
+            IsUnlocked: true
+            Slots:
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            DisplayNewIndicator: false
+        - Name: Wanderer
+          Data:
+            IsUnlocked: true
+            Slots:
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            DisplayNewIndicator: false
+        - Name: Warrior
+          Data:
+            IsUnlocked: true
+            Slots:
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            DisplayNewIndicator: false
+        - Name: Hunter_v2
+          Data:
+            IsUnlocked: true
+            Slots:
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            DisplayNewIndicator: false
+        - Name: Toolmaster
+          Data:
+            IsUnlocked: true
+            Slots:
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            DisplayNewIndicator: false
+        - Name: Witch
+          Data:
+            IsUnlocked: true
+            Slots:
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            DisplayNewIndicator: false
+        - Name: Hunter_v3
+          Data:
+            IsUnlocked: true
+            Slots:
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            DisplayNewIndicator: false
+        - Name: Spell
+          Data:
+            IsUnlocked: true
+            Slots:
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            - EquippedTool: ''
+              IsUnlocked: false
+            DisplayNewIndicator: false
+      UnlockedExtraBlueSlot: true
+      UnlockedExtraYellowSlot: true
+      ExtraToolEquips:
+        savedData:
+        - Name: Defend1
+          Data:
+            EquippedTool: ''
+            IsUnlocked: false
+        - Name: Explore1
+          Data:
+            EquippedTool: ''
+            IsUnlocked: false
+  cloakless:
+    playerData:
+      geo: 0
+      IsSilkSpoolBroken: true
+      slab_cloak_battle_encountered: false
+      slab_cloak_battle_completed: false
+      CurrentCrestID: Cloakless
+      ShellShards: 0
+      TempGeoStore: ~
+      TempShellShardStore: ~
+      ToolEquips:
+        savedData:
+          - Name: Cloakless
+            Data:
+              IsUnlocked: false
+              Slots: [ ]
+              DisplayNewIndicator: false

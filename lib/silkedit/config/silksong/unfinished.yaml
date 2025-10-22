@@ -1,0 +1,628 @@
+---
+garmond:
+  playerData:
+    metGarmond: true
+    garmondPurposeConvo: true
+    garmondSeenInDust05: true
+all_memory_lockets:
+  sceneData:
+    persistentBools:
+      serializedList:
+      - SceneName: Bellway_City
+        ID: Collectable Item Pickup
+        Value: true
+        Mutator: 0
+      - SceneName: Shadow_20
+        ID: Collectable Item Pickup
+        Value: true
+        Mutator: 0
+extrazones:
+  bell_abyss:
+    data:
+      playerData:
+        atBench: true
+        respawnScene: Room_Diving_Bell_Abyss
+        mapZone: 37
+        extraRestZone: 0
+        respawnMarkerName: RestBench
+    requirements:
+collections:
+  playerData:
+    Relics:
+      savedData:
+      - Name: Seal Chit Aspid_01
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Bone Record Bone_East_14
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Bone Record Greymoor_flooded_corridor
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Bone Record Understore_Map_Room
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Weaver Record Weave_08
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Seal Chit Ward Corpse
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Psalm Cylinder Librarian
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Librarian Melody Cylinder
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Weaver Totem Bonetown_upper_room
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Bone Record Wisp Top
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Psalm Cylinder Hang
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Seal Chit City Merchant
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Psalm Cylinder Grindle
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Weaver Record Sprint_Challenge
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Psalm Cylinder Library Roof
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Weaver Totem Slab_Bottom
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Weaver Totem Witch
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Ancient Egg Abyss Middle
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Weaver Record Conductor
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Psalm Cylinder Ward
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+      - Name: Seal Chit Silk Siphon
+        Data:
+          IsCollected: true
+          IsDeposited: true
+          HasSeenInRelicBoard: true
+    MateriumCollected:
+      savedData:
+      - Name: Silk
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Shell Shard
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Rosary Small
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Rosary Mid
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Pilgrim Rag
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Mossberry
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Common Spine
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Pale Oil
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Roach Corpse Item
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Broodmother Remains
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Shell Flower
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Silver Bellclapper
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Tool Metal
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Courier Supplies Generic
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Song Pilgrim Cloak
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Crow Feathers
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Lifeblood
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Skull King Fragment
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Beastfly Remains
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Rock Roller Item
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Rosary Big
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Smeltstone
+        Data:
+          IsCollected: true
+          HasSeenInRelicBoard: true
+      - Name: Voltstone
+        Data:
+          IsCollected: true
+          HasSeenInRelicBoard: true
+      - Name: Magnetite
+        Data:
+          IsCollected: true
+          HasSeenInRelicBoard: true
+      - Name: Vintage Nectar
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Enemy Morsel Shredded
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Snare Soul Churchkeeper
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Snare Soul Bell Hermit
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Enemy Morsel Seared
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Extractor Machine Pins
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Courier Supplies Gourmand
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Crustnut
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Enemy Morsel Speared
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Snare Soul Swamp Bug
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Pickled Roach Egg
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Mossberry Stew
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Courier Supplies Slave
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Courier Supplies Mask Maker
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Plasmium Blood
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Hunter Heart
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Flower Heart
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Clover Heart
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+      - Name: Coral Heart
+        Data:
+          IsCollected: false
+          HasSeenInRelicBoard: true
+savefile_dark_effect:
+  playerData:
+    blackThreadWorld: true
+curse:
+  playerData:
+    completedMemory_witch: true
+    WoodWitchOfferedCurse: true
+    WoodWitchGaveMandrake: true
+    gainedCurse: true
+    CurrentCrestID: Cursed
+    ToolEquips:
+      savedData:
+      - Name: Cursed
+        Data:
+          IsUnlocked: true
+          Slots: []
+          DisplayNewIndicator: false
+    QuestCompletionData:
+      savedData:
+      - Name: Wood Witch Curse
+        Data:
+          HasBeenSeen: true
+          IsAccepted: true
+          CompletedCount: 0
+          IsCompleted: true
+          WasEverCompleted: true
+    Collectables:
+      savedData:
+      - Name: Wood Witch Item
+        Data:
+          Amount: 0
+  sceneData:
+    persistentBools:
+      serializedList:
+      - SceneName: Mosstown_03
+        ID: Shellwood Twig Wall
+        Value: true
+      - SceneName: Mosstown_03
+        ID: craw_court_summons_pin
+        Value: false
+        Mutator: 0
+      - SceneName: Shellwood_25
+        ID: Shellwood Twig Wall (1)
+        Value: true
+        Mutator: 0
+      - SceneName: Shellwood_25
+        ID: Shellwood Twig Wall (2)
+        Value: true
+        Mutator: 0
+      - SceneName: Shellwood_25
+        ID: Shellwood Twig Wall (4)
+        Value: true
+        Mutator: 0
+      - SceneName: Shellwood_25
+        ID: Shellwood Twig Wall (3)
+        Value: true
+        Mutator: 0
+      - SceneName: Shellwood_25
+        ID: Shellwood Twig Wall
+        Value: true
+        Mutator: 0
+      - SceneName: Shellwood_25
+        ID: Witch_Cluster_Vine
+        Value: true
+        Mutator: 0
+      - SceneName: Shellwood_25
+        ID: Witch_Cluster_Vine (2)
+        Value: false
+        Mutator: 0
+      - SceneName: Shellwood_25
+        ID: Witch_Cluster_Vine (1)
+        Value: true
+        Mutator: 0
+go_cloakless:
+  playerData:
+    geo: 0
+    IsSilkSpoolBroken: true
+    slab_cloak_battle_encountered: false
+    slab_cloak_battle_completed: false
+    CurrentCrestID: Cloakless
+    ShellShards: 0
+    TempGeoStore:
+    TempShellShardStore:
+    ToolEquips:
+      savedData:
+      - Name: Cloakless
+        Data:
+          IsUnlocked: false
+          Slots: []
+          DisplayNewIndicator: false
+refill_liquids:
+  playerData:
+    ToolLiquids:
+      savedData:
+      - Name: Flea Brew
+        Data:
+          RefillsLeft: 30
+          SeenEmptyState: false
+          UsedExtra: false
+      - Name: Lifeblood Syringe
+        Data:
+          RefillsLeft: 20
+          SeenEmptyState: false
+          UsedExtra: false
+reveal_map:
+  playerData:
+    mapAllRooms: true
+reveal_fleas:
+  playerData:
+    hasPinFleaMarrowlands: true
+    hasPinFleaMidlands: true
+    hasPinFleaBlastedlands: true
+    hasPinFleaCitadel: true
+    hasPinFleaPeaklands: true
+    hasPinFleaMucklands: true
+all_crests:
+  playerData:
+    CurrentCrestID: Hunter_v3
+    ToolEquips:
+      savedData:
+      - Name: Hunter
+        Data:
+          IsUnlocked: true
+          Slots:
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          DisplayNewIndicator: false
+      - Name: Reaper
+        Data:
+          IsUnlocked: true
+          Slots:
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          DisplayNewIndicator: false
+      - Name: Wanderer
+        Data:
+          IsUnlocked: true
+          Slots:
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          DisplayNewIndicator: false
+      - Name: Warrior
+        Data:
+          IsUnlocked: true
+          Slots:
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          DisplayNewIndicator: false
+      - Name: Hunter_v2
+        Data:
+          IsUnlocked: true
+          Slots:
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          DisplayNewIndicator: false
+      - Name: Toolmaster
+        Data:
+          IsUnlocked: true
+          Slots:
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          DisplayNewIndicator: false
+      - Name: Witch
+        Data:
+          IsUnlocked: true
+          Slots:
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          DisplayNewIndicator: false
+      - Name: Hunter_v3
+        Data:
+          IsUnlocked: true
+          Slots:
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          DisplayNewIndicator: false
+      - Name: Spell
+        Data:
+          IsUnlocked: true
+          Slots:
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          - EquippedTool: ''
+            IsUnlocked: false
+          DisplayNewIndicator: false
+    UnlockedExtraBlueSlot: true
+    UnlockedExtraYellowSlot: true
+    ExtraToolEquips:
+      savedData:
+      - Name: Defend1
+        Data:
+          EquippedTool: ''
+          IsUnlocked: false
+      - Name: Explore1
+        Data:
+          EquippedTool: ''
+          IsUnlocked: false
+all_eva_upgrades:
+  playerData:
+    UnlockedExtraBlueSlot: true
+    UnlockedExtraYellowSlot: true
+    ExtraToolEquips:
+      savedData:
+      - Name: Defend1
+        Data:
+          EquippedTool: ''
+          IsUnlocked: false
+      - Name: Explore1
+        Data:
+          EquippedTool: ''
+          IsUnlocked: false
+    HasSeenEvaHeal: true
+    MetCrestUpgrader: true
+    MetCrestUpgraderAct3: true
+    CrestPreUpgradeTalked: true
+    CrestPreUpgradeAdditional: true
+    CrestPurposeQueued: true
+    CrestTalkedPurpose: true
+    CrestUpgraderTalkedSnare: true
+    CrestUpgraderOfferedFinal: true
+    HasBoundCrestUpgrader: true

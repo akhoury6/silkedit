@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+################
+### Silkedit ###
+################
+
+#require 'rbcli'
+require '/Users/andrew/Documents/code/rbcli/lib/rbcli.rb'
+
+require File.join(File.dirname(__FILE__), '..', 'lib', 'silkedit')
+Dir[File.join(File.dirname(__FILE__), '..', 'lib', 'config', '*.rb')].each { |file| require file }
+Dir[File.join(File.dirname(__FILE__), '..', 'lib', 'commands', '*.rb')].each { |file| require file }
+
+Rbcli.go!

@@ -1,0 +1,6 @@
+---
+editor_command: vi '%FILE%'
+permasave_file_location:
+  macos: '~/.silkedit.yaml'
+  linux: '~/.silkedit.yaml'
+  windows: '%APPDATA%\silkedit\silkedit.yaml'

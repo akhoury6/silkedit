@@ -1,0 +1,13 @@
+---
+savegame_directory:
+  hollow_knight:
+    macos: '~/Library/Application Support/unity.Team Cherry.Hollow Knight'
+    linux: '~/.config/unity3d/Team Cherry/Hollow Knight'
+    windows: '%UserProfile%\AppData\LocalLow\Team Cherry\Hollow Knight'
+  silksong:
+    macos: '~/Library/Application Support/unity.Team-Cherry.Silksong/%STEAMID%'
+    linux: '~/.config/unity3d/Team Cherry/Hollow Knight Silksong/%STEAMID%'
+    windows: '%USERPROFILE%/AppData/LocalLow/Team Cherry/Hollow Knight Silksong/%STEAMID%'
+max_backups: 5
+use_yaml: true
+aes_key: 'UKu52ePUBwetZ9wNX88o54dnfKRu0T1l'
