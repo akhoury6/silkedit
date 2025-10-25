@@ -119,7 +119,11 @@ module Silkedit::Savegame
     private
 
     def load_from_disk(filename)
-      data = File.read(filename)
+      begin
+        data = File.read(filename)
+      rescue Errno::ENOENT
+        Rbcli.log.fatal("File not found: #{filename}.", exit_status: 25)
+      end
       data = Packer.unpack(data) if Packer.can_unpack?(data)
       Rbcli.log.info "Loaded from #{File.basename(filename)}", 'SAVEGAME'
       @data = YAML.safe_load(data)
