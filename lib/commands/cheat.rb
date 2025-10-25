@@ -12,7 +12,7 @@ Rbcli.command 'cheat' do
     else
       selected_cheats.each { |cht| c.apply_cheat(cht) }
       s.direct_backup
-      # s.save_to_dat
+      s.save_to_dat
       Rbcli.log.info "applied cheats: #{selected_cheats.join(', ')}"
     end
   end
