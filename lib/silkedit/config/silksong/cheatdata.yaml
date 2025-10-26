@@ -770,6 +770,58 @@ cheats:
               Amount: 1
               IsSeenMask: 0
               AmountWhileHidden: 0
+  ability_dash:
+    data:
+      playerData:
+        hasDash: true
+        HasSeenDash: true
+  ability_doublejump:
+    data:
+      playerData:
+        hasDoubleJump: true
+  ability_drift:
+    data:
+      playerData:
+        hasBrolly: true
+  ability_walljump:
+    data:
+      playerData:
+        hasWalljump: true
+        HasSeenWalljump: true
+  ability_needolin:
+    data:
+      playerData:
+        hasNeedolin: true
+        HasSeenNeedolin: true
+  ability_needolin_up:
+    data:
+      playerData:
+        hasNeedolinMemoryPowerup: true
+        HasSeenNeedolinUp: true
+  ability_needolin_down:
+    data:
+      playerData:
+        UnlockedFastTravelTeleport: true
+        HasSeenNeedolinDown: true
+  ability_harpoon:
+    data:
+      playerData:
+        hasHarpoonDash: true
+        HasSeenHarpoon: true
+  ability_charge_weapon:
+    data:
+      playerData:
+        hasChargeSlash: true
+  ability_silkspecial:
+    data:
+      playerData:
+        hasSilkSpecial: true
+        HasSeenSilkSpecial: true
+  ability_superjump:
+    data:
+      playerData:
+        hasSuperJump: true
+        HasSeenSuperJump: true
   quill_none:
     data:
       playerData:
