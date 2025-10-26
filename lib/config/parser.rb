@@ -29,6 +29,6 @@ Rbcli::Configurate.cli do
   #   multi: If set to true, allows the option to be provided multiple times (--param --param, or in short form, -pp). (Default: false)
   #     When using this with a :boolean type, rather than returning `true` or `false`, it will return a count of the number of times the parameter was passed.
   #   permitted: If set to an array, restricts input to the values within that array. (Default: nil (no restrictions))
-  opt :verbose, "Twice or more enables very-verbose output", multi: true
+  # opt :verbose, "Twice or more enables very-verbose output", multi: true
   opt :savenum, "A number from 1-4, indicating which game save you'd like to address", short: 's', type: :integer
 end
