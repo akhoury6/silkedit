@@ -36,7 +36,7 @@ Rbcli.command 'cheat' do
       when :no_cheat
         Rbcli.log.warn "Could not apply cheat #{cht}: Cheat does not exist"
         Rbcli.log.info 'Did you mean one of these?'
-        possible_cheats = c.list_cheats.select { |cheat| cheat.include?(args.first) }
+        possible_cheats = c.list_cheats.select { |cheat| cheat.include?(cht) }
         Rbcli.log.info display_simple_list.call(possible_cheats, 5)
         nil
       when :failed_act_check
