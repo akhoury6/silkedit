@@ -8,9 +8,8 @@ module Silkedit::Cheat
     end
 
     def apply_cheat(cheat, *args)
-      return false unless cheat_exists?(cheat.to_s)
+      return :no_cheat unless cheat_exists?(cheat.to_s)
       self.send(cheat.to_sym, *args)
-      true
     end
 
     def apply_cheats(cheats)

@@ -1,25 +1,26 @@
 Rbcli.command 'zone' do
   description 'Zones the character to a different respawn point'
   usage '<zone> (--(f)orce)'
-  parameter :force, 'Force select a spawn point even when requirements are not met. Changes may be made to your savegave.', type: :bool, default: false
   parameter :list, 'Display the full list of zones to select from', type: :bool, default: false
+  parameter :force, 'Force select a spawn point even when requirements are not met. Changes may be made to your savegave.', type: :bool, default: false
   action do |opts, params, args, config, env|
     s = Silkedit::Savegame::SaveFile.new(:silksong, opts[:savenum])
     s.load_from_dat
     c = Silkedit::Cheat::Engine.new(s.data)
 
-    display_simple_zone_list = lambda do |list, cols|
+    display_simple_list = lambda do |list, cols|
+      max_length = list.map(&:length).max
       display_set = []
-      rows = (c.list_shortcuts.length / cols.to_f).ceil
+      rows = (list.length / cols.to_f).ceil
       row_idx = 0
       max_rows = rows - 1
-      c.list_shortcuts.length.times do |i|
+      list.length.times do |i|
         display_set[row_idx] ||= []
-        display_set[row_idx] << c.list_shortcuts.keys[i]
+        display_set[row_idx] << list[i]
         row_idx += 1
         row_idx = 0 if row_idx > max_rows
       end
-      display_set.map { |row| row.map { |z| z.rjust(15) }.join(' ') }.join("\n")
+      display_set.map { |row| row.map { |z| z.ljust(max_length) }.join('   ') }.join("\n")
     end
 
     display_detailed_zone_list = lambda do |list|
@@ -33,7 +34,7 @@ Rbcli.command 'zone' do
 
     if args.empty? || params[:list]
       Rbcli.log.info 'Shortcuts:'
-      Rbcli.log.info display_simple_zone_list.call(c.list_shortcuts, 5)
+      Rbcli.log.info display_simple_list.call(c.list_shortcuts.keys, 5)
     end
 
     if params[:list]
@@ -47,20 +48,20 @@ Rbcli.command 'zone' do
     status = c.zone_to(args.first, force_soft_reqs: params[:force], enforce_min_act: !params[:force])
     case status
     when :no_zone
-      Rbcli.log.info "Could not zone to #{args.first}: Specified spawn point does not exist"
+      Rbcli.log.warn "Could not zone to #{args.first}: Specified spawn point does not exist"
       Rbcli.log.info 'Did you mean one of these?'
       possible_zones = c.list_zones.select { |zone| zone[:slug].include?(args.first) || !zone[:shortcut].nil? && zone[:shortcut].include?(args.first) }
-      Rbcli.log.info display_detailed_zone_list.call(possible_zones)
+      Rbcli.log.info display_detailed_zone_list.call(possible_zones, 5)
     when :failed_act_check
-      Rbcli.log.warn "Could not zone to #{args.first}: The player is in the wrong act. Use --(f)orce to override."
+      Rbcli.log.warn "Could not zone to #{args.first.colorize(:red)}: The player is in the wrong act. Use --(f)orce to override."
     when :failed_soft_reqs
-      Rbcli.log.warn "Could not zone to #{args.first}: Soft requirements not met. Use --(f)orce to apply the required changes."
+      Rbcli.log.warn "Could not zone to #{args.first.colorize(:red)}: Soft requirements not met. Use --(f)orce to apply the required changes."
     when :failed_hard_reqs
-      Rbcli.log.error "Could not zone to #{args.first}: Hard requirements not met. Zoning here would cause errors."
+      Rbcli.log.error "Could not zone to #{args.first.colorize(:red)}: Hard requirements not met. Zoning here would cause in-game errors."
     when :success
       s.direct_backup
       s.save_to_dat
-      Rbcli.log.info "Zoned to #{args.first}"
+      Rbcli.log.info "Zoned to #{args.first.colorize(:green)}"
     else
       raise "Unknown status: #{status}"
     end
