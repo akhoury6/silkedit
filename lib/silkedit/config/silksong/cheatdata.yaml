@@ -291,6 +291,13 @@ cheats:
         hasMarker_c: true
         hasMarker_d: true
         hasMarker_e: true
+        Collectables:
+          savedData:
+          - Name: Quill
+            Data:
+              Amount: 1
+              IsSeenMask: 255
+              AmountWhileHidden: 0
   all_spells:
     data:
       playerData:
@@ -874,6 +881,13 @@ cheats:
       playerData:
         hasQuill: true
         QuillState: 1
+        Collectables:
+          savedData:
+          - Name: Quill
+            Data:
+              Amount: 1
+              IsSeenMask: 16
+              AmountWhileHidden: 0
       sceneData:
         persistentBools:
           serializedList:
@@ -890,6 +904,13 @@ cheats:
       playerData:
         hasQuill: true
         QuillState: 2
+        Collectables:
+          savedData:
+          - Name: Quill
+            Data:
+              Amount: 1
+              IsSeenMask: 16
+              AmountWhileHidden: 0
       sceneData:
         persistentBools:
           serializedList:
@@ -906,6 +927,13 @@ cheats:
       playerData:
         hasQuill: true
         QuillState: 3
+        Collectables:
+          savedData:
+          - Name: Quill
+            Data:
+              Amount: 1
+              IsSeenMask: 72
+              AmountWhileHidden: 0
       sceneData:
         persistentBools:
           serializedList:
