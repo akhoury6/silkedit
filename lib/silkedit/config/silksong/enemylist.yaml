@@ -197,7 +197,7 @@ playerData:
         Kills: 2
         HasBeenSeen: true
       GameName: Lace
-      Position: 232
+      Position: 233
     - Name: Fields Flock Flyers
       Record:
         Kills: 15
@@ -437,7 +437,7 @@ playerData:
         Kills: 1
         HasBeenSeen: true
       GameName: Widow
-      Position: 229
+      Position: 230
     - Name: Coral Judge
       Record:
         Kills: 15
@@ -894,6 +894,12 @@ playerData:
         HasBeenSeen: true
       GameName: Disgraced Chef Lugoli
       Position: 86
+    - Name: Shakra
+      Record:
+        Kills: 1
+        HasBeenSeen: true
+      GameName: Shakra
+      Position: 227
     - Name: Coral Spike Goomba
       Record:
         Kills: 15
@@ -941,7 +947,7 @@ playerData:
         Kills: 1
         HasBeenSeen: true
       GameName: Phantom
-      Position: 231
+      Position: 232
     - Name: Swamp Muckman
       Record:
         Kills: 15
@@ -1001,13 +1007,13 @@ playerData:
         Kills: 1
         HasBeenSeen: true
       GameName: First Sinner
-      Position: 230
+      Position: 231
     - Name: Silk Boss
       Record:
         Kills: 1
         HasBeenSeen: true
       GameName: Grand Mother Silk
-      Position: 233
+      Position: 234
     - Name: Dock Guard Thrower
       Record:
         Kills: 1
@@ -1091,7 +1097,7 @@ playerData:
         Kills: 1
         HasBeenSeen: true
       GameName: Pinstress
-      Position: 228
+      Position: 229
     - Name: Bone Hopper Giant
       Record:
         Kills: 10
@@ -1157,7 +1163,7 @@ playerData:
         Kills: 1
         HasBeenSeen: true
       GameName: Lost Garmond
-      Position: 227
+      Position: 228
     - Name: Bone Hunter Trapper
       Record:
         Kills: 1
@@ -1415,4 +1421,4 @@ playerData:
         Kills: 1
         HasBeenSeen: true
       GameName: Lost Lace
-      Position: 234
+      Position: 235

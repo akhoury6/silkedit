@@ -91,7 +91,7 @@ bellhart:
         hazardRespawnFacing: 1
     soft_reqs:
       BelltownHouseUnlocked: true
-    hard_reqs: { }
+    hard_reqs: {}
     min_act: 2
   bench:
     data:
@@ -880,6 +880,19 @@ karak:
     hard_reqs: {}
     min_act: 2
 marrow:
+  bellbeast_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Bone_05
+        mapZone: 2
+        extraRestZone: 0
+        respawnMarkerName: Silk Heart Memory Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: { }
+    hard_reqs: { }
+    min_act: 1
   entrance:
     data:
       playerData:
