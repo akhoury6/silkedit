@@ -54,11 +54,17 @@ Rbcli.command 'cheat' do
       else
         raise "Unknown status: #{status}"
       end
-    end.reject(&:nil?)
+    end
 
     if changes.empty?
       Rbcli.log.info ''
       Rbcli.log.info 'No cheats applied'
+      Rbcli.exit(0)
+    end
+
+    if changes.include?(nil)
+      Rbcli.log.info ''
+      Rbcli.log.info 'Some cheats failed to apply. Discarding changes.'
       Rbcli.exit(0)
     end
 
