@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    silkedit (0.1.1)
+    silkedit (0.1.2)
       base64 (>= 0.3.0)
       colorize (>= 1.1.0)
       fileutils (>= 1.7.3)
