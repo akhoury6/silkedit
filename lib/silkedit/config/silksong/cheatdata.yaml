@@ -27,6 +27,13 @@ cheats:
       playerData:
         ToolPouchUpgrades: 4
         ToolKitUpgrades: 4
+        Collectables:
+          savedData:
+          - Name: Tool Pouch&Kit Inv
+            Data:
+              Amount: 0
+              IsSeenMask: 4
+              AmountWhileHidden: 0
   max_liquids:
     data:
       playerData:
@@ -63,6 +70,13 @@ cheats:
         HasSeenNeedolinDown: true
         HasSeenHarpoon: true
         UnlockedFastTravelTeleport: true
+        Collectables:
+          savedData:
+          - Name: Dresses
+            Data:
+              Amount: 0
+              IsSeenMask: 8
+              AmountWhileHidden: 0
   all_crests:
     data:
       playerData:
@@ -132,7 +146,6 @@ cheats:
       playerData:
         UnlockedFastTravel: true
         FastTravelNPCLocation: 1
-        UnlockedFastTravelTeleport: true
         UnlockedDocksStation: true
         UnlockedBoneforestEastStation: true
         UnlockedGreymoorStation: true
@@ -768,7 +781,7 @@ cheats:
           - Name: Plasmium Gland
             Data:
               Amount: 1
-              IsSeenMask: 0
+              IsSeenMask: 1
               AmountWhileHidden: 0
   ability_dash:
     data:
@@ -779,10 +792,24 @@ cheats:
     data:
       playerData:
         hasDoubleJump: true
+        Collectables:
+          savedData:
+          - Name: Dresses
+            Data:
+              Amount: 0
+              IsSeenMask: 8
+              AmountWhileHidden: 0
   ability_drift:
     data:
       playerData:
         hasBrolly: true
+        Collectables:
+          savedData:
+          - Name: Dresses
+            Data:
+              Amount: 0
+              IsSeenMask: 8
+              AmountWhileHidden: 0
   ability_walljump:
     data:
       playerData:
@@ -822,6 +849,10 @@ cheats:
       playerData:
         hasSuperJump: true
         HasSeenSuperJump: true
+  ability_teleport:
+    data:
+      playerData:
+        UnlockedFastTravelTeleport: true
   quill_none:
     data:
       playerData:
@@ -932,6 +963,42 @@ cheats:
           - SceneName: Tube_Hub
             ID: cradle_pipe_trapdoor
             Value: true
+            Mutator: 0
+  unlock_all_bellshrines:
+    data:
+      playerData:
+        bellShrineBoneForest: true
+        bellShrineGreymoor: true
+        bellShrineShellwood: true
+        bellShrineBellhart: true
+        bellShrineWilds: true
+        bellShrineEnclave: true
+      sceneData:
+        persistentInts:
+          serializedList:
+          - SceneName: Bellshrine
+            ID: Bellshrine Sequence
+            Value: 3
+            Mutator: 0
+          - SceneName: Bellshrine_02
+            ID: Bellshrine Sequence
+            Value: 3
+            Mutator: 0
+          - SceneName: Bellshrine_03
+            ID: Bellshrine Sequence
+            Value: 3
+            Mutator: 0
+          - SceneName: Belltown_Shrine
+            ID: Bellshrine Sequence Bellhart
+            Value: 3
+            Mutator: 0
+          - SceneName: Bellshrine_05
+            ID: Bellshrine Sequence
+            Value: 3
+            Mutator: 0
+          - SceneName: Bellshrine_Enclave
+            ID: Bellshrine Sequence
+            Value: 3
             Mutator: 0
   give_consumables:
     data:
