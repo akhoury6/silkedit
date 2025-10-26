@@ -572,6 +572,19 @@ farfields:
     soft_reqs: {}
     hard_reqs: {}
     min_act: 1
+  soprano_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Ant_Queen
+        mapZone: 16
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 2
   sprintmaster:
     data:
       playerData:
