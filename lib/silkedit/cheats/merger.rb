@@ -31,7 +31,7 @@ module Silkedit::Cheat
         merge_hash(data[k], cheat[k])
       elsif should_merge_arrays && cheat[k].is_a?(Array) && data[k].is_a?(Array)
         if cheat[k][0].is_a?(Hash)
-          merge_arrays_by_hash_keys(data[k], cheat[k])
+          data[k] = merge_arrays_by_hash_keys(data[k], cheat[k])
         else
           data[k].merge!(cheat[k])
           data[k].uniq!
@@ -44,7 +44,11 @@ module Silkedit::Cheat
   end
 
   def self.merge_arrays_by_hash_keys(data, cheat)
-    return nil unless data.is_a?(Array) && cheat.is_a?(Array) && data.first.is_a?(Hash)
+    return data unless data.is_a?(Array) && cheat.is_a?(Array) && cheat.first.is_a?(Hash)
+    if data.empty?
+      data = cheat
+      return data
+    end
     # First determine the primary key(s) for the object
     pkeys = []
     [%w[Name], %w[sceneData ID]].each do |pkey_arr|
@@ -58,7 +62,7 @@ module Silkedit::Cheat
         data << c
       end
     end
-    true
+    data
   end
 
   def self.verify_hash(data, reqs)
