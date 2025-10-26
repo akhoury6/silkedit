@@ -7,49 +7,50 @@ module Silkedit::Savegame
 
       diff = nil
 
-      if old.is_a?(Hash)
+      if old.is_a?(Hash) || new.is_a?(Hash)
         diff = {}
         (old.keys + new.keys).uniq.each do |k|
           itemdiff = mkdiff(old[k], new[k])
           diff[k] = itemdiff unless itemdiff.nil? || itemdiff.empty?
         end
-      elsif old.is_a?(Array)
+      elsif old.is_a?(Array) || new.is_a?(Array)
         diff = []
-        if old.first.is_a?(Hash)
-          if old.first.key?('Name')
-            keycomps = %w[Name]
-          elsif old.first.key?('SceneName') && old.first.key?('ID')
-            keycomps = %w[SceneName ID]
-          elsif old.first.key?('SceneName') && old.first.key?('EventType')
-            keycomps = %w[SceneName EventType]
-          else
-            keycomps = nil
+        if (old.first.is_a?(Hash) && old.first.key?('Name')) ||
+           (new.first.is_a?(Hash) && new.first.key?('Name'))
+          keycomps = %w[Name]
+        elsif (old.first.is_a?(Hash) && old.first.key?('SceneName') && old.first.key?('ID')) ||
+              (new.first.is_a?(Hash) && new.first.key?('SceneName') && new.first.key?('ID'))
+          keycomps = %w[SceneName ID]
+        elsif (old.first.is_a?(Hash) && old.first.key?('SceneName') && old.first.key?('EventType')) ||
+              (new.first.is_a?(Hash) && new.first.key?('SceneName') && new.first.key?('EventType'))
+          keycomps = %w[SceneName EventType]
+        else
+          keycomps = nil
+        end
+        if keycomps.nil?
+          diff = { old: old.reject { |e| new.include?(e) }, new: new.reject { |e| old.include?(e) } }
+          diff = nil if diff[:old].empty? && diff[:new].empty?
+        else
+          old.each do |o|
+            n = new.find { |e| keycomps.map { |k| e[k] == o[k] }.reduce { |a, b| a && b } }
+            if n.nil?
+              diff.append({new: n, old: o})
+              next
+            end
+            itemdiff = mkdiff(
+              o.reject { |k, _v| keycomps.include?(k) },
+              n.nil? ? nil : n.reject { |k, _v| keycomps.include?(k) }
+            )
+            next if itemdiff.empty?
+            newobj = {}
+            keycomps.each { |k| newobj[k] = o[k] }
+            diff.append(newobj.merge(itemdiff))
           end
-          if keycomps.nil?
-            diff = { old: old.reject { |e| new.include?(e) }, new: new.reject { |e| old.include?(e) } }
-          else
-            old.each do |o|
-              n = new.find { |e| keycomps.map { |k| e[k] == o[k] }.reduce { |a, b| a && b } }
-              itemdiff = mkdiff(
-                o.reject { |k, _v| keycomps.include?(k) },
-                n.nil? ? nil : n.reject { |k, _v| keycomps.include?(k) }
-              )
-              next if itemdiff.empty?
-              newobj = {}
-              keycomps.each { |k| newobj[k] = o[k] }
-              diff.append(newobj.merge(itemdiff))
-            end
-            new.each do |n|
-              o = old.find { |e| keycomps.map { |k| e[k] == n[k] }.reduce { |a, b| a && b } }
-              next unless o.nil?
-              itemdiff = mkdiff(
-                nil,
-                n.reject { |k, _v| keycomps.include?(k) }
-              )
-              newobj = {}
-              keycomps.each { |k| newobj[k] = n[k] }
-              diff.append(newobj.merge(itemdiff))
-            end
+          new.each do |n|
+            o = old.find { |e| keycomps.map { |k| e[k] == n[k] }.reduce { |a, b| a && b } }
+            next unless o.nil?
+            diff.append({new: n, old: o})
+            next
           end
         end
       elsif old != new
@@ -71,7 +72,7 @@ module Silkedit::Savegame
             if line[i] == '-' && blank_leadup
               colored_string += line[i].colorize(:yellow)
               i += 1
-            elsif line[i] == ':' && blank_leadup
+            elsif line[i] == ':' && (blank_leadup || line[0..i-1].sub('-', '').chars.map { |c| c == ' ' }.all?)
               j = i + line[i+1..-1].index(':')
               colored_string += line[i..j].colorize(:magenta)
               i += j - i + 1
