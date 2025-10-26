@@ -33,7 +33,8 @@ module Silkedit::Cheat
     end
 
     def max_everything
-      %w[
+      backup_data = @data.dup
+      result = %w[
         max_health
         max_silk
         max_weapon
@@ -48,12 +49,19 @@ module Silkedit::Cheat
         give_consumables
         max_rosaries
         max_shards
-      ].each { |cht| self.send(cht.to_sym) }
+      ].map { |cht| self.send(cht.to_sym) }
+      if result.all?(:success)
+        :success
+      else
+        @data = backup_data
+        result.reject { |r| r == :success }.first
+      end
     end
 
     def max_shards
       Rbcli.log.info 'Applying cheat max_shards', 'CHEATS'
       @data['playerData']['ShellShards'] = 400 + (@data['playerData']['ToolPouchUpgrades'] || 0) * 100
+      :success
     end
 
     def all_crest_unlocks
@@ -68,11 +76,13 @@ module Silkedit::Cheat
         end
         crest['Data']['Slots'].each { |slot| slot['IsUnlocked'] = true }
       end
+      :success
     end
 
     def toggle_map_reveal
       @data['playerData']['mapAllRooms'] = !@data['playerData']['mapAllRooms']
       Rbcli.log.info "Full map reveal is #{@data['playerData']['mapAllRooms'] ? 'enabled' : 'disabled'}", 'CHEATS'
+      :success
     end
 
     def toggle_flea_reveal
@@ -80,6 +90,7 @@ module Silkedit::Cheat
       is_enabled = flea_keys.all? { |k| @data['playerData'][k] }
       flea_keys.each { |k| @data[k] = !is_enabled }
       Rbcli.log.info "Flea locations are #{is_enabled ? 'hidden' : 'revealed'} on map", 'CHEATS'
+      :success
     end
 
     def toggle_cloakless
@@ -110,18 +121,21 @@ module Silkedit::Cheat
         # @data['playerData']['slab_cloak_battle_completed'] = true
         @data['playerData']['IsSilkSpoolBroken'] = false
       end
+      :success
     end
 
     def toggle_permadeath_mode
       toggle = @data['playerData']['permadeathMode'] == 0
       Rbcli.log.info "Toggling permadeath mode #{toggle ? 'ON' : 'OFF'}", 'CHEATS'
       @data['playerData']['permadeathMode'] = toggle ? 1 : 0
+      :success
     end
 
     def toggle_fly_mode
       toggle = @data['playerData']['infiniteAirJump'] == false
       Rbcli.log.info "Toggling fly mode #{toggle ? 'ON' : 'OFF'}", 'CHEATS'
       @data['playerData']['infiniteAirJump'] = toggle ? true : false
+      :success
     end
   end
 end
