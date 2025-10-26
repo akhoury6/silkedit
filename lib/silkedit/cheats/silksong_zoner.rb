@@ -25,7 +25,7 @@ module Silkedit::Cheat
       zonelist = Silkedit::Cheat::SilksongZoner.module_eval { @zonelist }
       shortcuts = Silkedit::Cheat::SilksongZoner.module_eval { @shortcuts }
       Rbcli.log.info "Zoning to #{zone}", 'ZONER'
-      return self.zone_to(shortcuts[zone]) if shortcuts.key?(zone)
+      return self.zone_to(shortcuts[zone], force_soft_reqs: force_soft_reqs, enforce_min_act: enforce_min_act) if shortcuts.key?(zone)
       return :no_zone unless zonelist.find { |z| z['slug'] == zone }
       region, target = zone.split('.')
       Silkedit::Cheat.merge_cheat(
