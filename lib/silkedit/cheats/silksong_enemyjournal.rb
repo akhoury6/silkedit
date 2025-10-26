@@ -8,7 +8,7 @@ module Silkedit::Cheat
     def update_journal(should_update_kills_only: true)
       enemylist = Silkedit::Cheat::SilksongJournaler.module_eval { @enemylist }
       Rbcli.log.info 'Applying ', 'JOURNAL'
-      enemylist['playerData']['EnemyJournalKillData']['list'].each do |known_enemy|
+      enemylist['playerData']['EnemyJournalKillData']['list'].sort_by { |known_enemy| known_enemy['Position']}.each do |known_enemy|
         sleep 0.05
         player_enemy = @data['playerData']['EnemyJournalKillData']['list'].find { |i| i['Name'] == known_enemy['Name'] }
         self.display_enemy(known_enemy, player_enemy, show_images: false)
@@ -38,7 +38,7 @@ module Silkedit::Cheat
 
     def enemy_list(only_missing: false, show_images: false)
       enemylist = Silkedit::Cheat::SilksongJournaler.module_eval { @enemylist }
-      enemylist['playerData']['EnemyJournalKillData']['list'].each do |known_enemy|
+      enemylist['playerData']['EnemyJournalKillData']['list'].sort_by { |known_enemy| known_enemy['Position']}.each do |known_enemy|
         player_enemy = @data['playerData']['EnemyJournalKillData']['list'].find { |i| i['Name'] == known_enemy['Name'] }
         left = player_enemy.nil? ? known_enemy['Record']['Kills'] : known_enemy['Record']['Kills'] - player_enemy['Record']['Kills']
         left = 0 if left < 0
@@ -54,12 +54,13 @@ module Silkedit::Cheat
       left = player_enemy.nil? ? known_enemy['Record']['Kills'] : known_enemy['Record']['Kills'] - player_enemy['Record']['Kills']
       left = 0 if left < 0
       e_complete = left <= 0 ? '*'.colorize(:cyan) : ' '
+      e_number = known_enemy['Position'].to_s.rjust(3)
       e_name = known_enemy['GameName'].ljust(27).colorize(:blue).bold
       e_seen = player_enemy.nil? ? 'N'.colorize(:red) : 'Y'.colorize(:green)
       e_kills = (player_enemy.nil? ? 0 : player_enemy['Record']['Kills']).to_s.rjust(4).colorize(:green)
       e_req = known_enemy['Record']['Kills'].to_s.rjust(4).colorize(:blue)
       e_need = left.to_s.rjust(4).colorize(left <= 0 ? :cyan : :red)
-      Rbcli.log.info "#{e_complete} #{e_name} Seen? #{e_seen} Kills: #{e_kills} Needed: #{e_req} Left: #{e_need}"
+      Rbcli.log.info "#{e_number}. #{e_complete} #{e_name} Seen? #{e_seen} Kills: #{e_kills} Needed: #{e_req} Left: #{e_need}"
     end
 
     def show_enemy_image(name)
