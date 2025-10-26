@@ -890,8 +890,8 @@ marrow:
         respawnMarkerName: Silk Heart Memory Respawn Marker
         respawnType: 0
         hazardRespawnFacing: 0
-    soft_reqs: { }
-    hard_reqs: { }
+    soft_reqs: {}
+    hard_reqs: {}
     min_act: 1
   entrance:
     data:
@@ -1033,6 +1033,19 @@ mossgrove:
     soft_reqs: {}
     hard_reqs: {}
     min_act: 3
+  church_spawn:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Bonetown
+        mapZone: 18
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker Church
+        respawnType: 0
+        hazardRespawnFacing: 2
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
   druid:
     data:
       playerData:
