@@ -1,10 +1,10 @@
 Rbcli.command 'journal' do
   description 'Manages the journal of enemy kills'
-  usage '[list|listmissing|complete|killsonly]'
+  usage '[listall|listmissing|complete|killsonly]'
   parameter :showimages, 'Show images of the enemies', short: 'i', type: :bool, default: false
   action do |opts, params, args, config, env|
     command = args.first
-    if command.nil? || command.empty? || !%w[list listmissing complete killsonly].include?(command)
+    if command.nil? || command.empty? || !%w[listall listmissing complete killsonly].include?(command)
       Rbcli.log.error "Must specify an action as one of: listall, listmissing, complete, killsonly"
       next
     end
@@ -27,7 +27,7 @@ Rbcli.command 'journal' do
       s.direct_backup
       s.save_to_dat
     else
-      raise "Unknown command: #{command}"
+      Rbcli.fatal "Unknown command: #{command}", exit_status: 1
     end
 
   end
