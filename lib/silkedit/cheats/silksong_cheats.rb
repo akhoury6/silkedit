@@ -117,5 +117,11 @@ module Silkedit::Cheat
       Rbcli.log.info "Toggling permadeath mode #{toggle ? 'ON' : 'OFF'}", 'CHEATS'
       @data['playerData']['permadeathMode'] = toggle ? 1 : 0
     end
+
+    def toggle_fly_mode
+      toggle = @data['playerData']['infiniteAirJump'] == false
+      Rbcli.log.info "Toggling fly mode #{toggle ? 'ON' : 'OFF'}", 'CHEATS'
+      @data['playerData']['infiniteAirJump'] = toggle ? true : false
+    end
   end
 end
