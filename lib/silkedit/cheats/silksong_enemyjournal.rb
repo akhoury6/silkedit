@@ -9,7 +9,7 @@ module Silkedit::Cheat
       enemylist = Silkedit::Cheat::SilksongJournaler.module_eval { @enemylist }
       Rbcli.log.info 'Applying ', 'JOURNAL'
       enemylist['playerData']['EnemyJournalKillData']['list'].sort_by { |known_enemy| known_enemy['Position']}.each do |known_enemy|
-        sleep 0.05
+        sleep 0.01
         player_enemy = @data['playerData']['EnemyJournalKillData']['list'].find { |i| i['Name'] == known_enemy['Name'] }
         self.display_enemy(known_enemy, player_enemy, show_images: false)
         if player_enemy.nil?
