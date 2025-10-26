@@ -860,6 +860,104 @@ cheats:
     data:
       playerData:
         UnlockedFastTravelTeleport: true
+  complete_mushroom_quest:
+    data:
+      playerData:
+        MushroomQuestFound1: true
+        MushroomQuestFound2: true
+        MushroomQuestFound3: true
+        MushroomQuestFound4: true
+        MushroomQuestFound5: true
+        MushroomQuestFound6: true
+        MushroomQuestFound7: true
+        QuestCompletionData:
+          savedData:
+          - Name: Mr Mushroom
+            Data:
+              HasBeenSeen: true
+              IsAccepted: true
+              CompletedCount: 0
+              IsCompleted: true
+              WasEverCompleted: false
+  easy_dice_game_win:
+    data:
+      playerData:
+        dicePilgrimBank: 0
+  easy_flea_games_win:
+    data:
+      playerData:
+        fleaGames_juggling_played: true
+        fleaGames_juggling_highscore: 56
+        fleaGames_bouncing_played: true
+        fleaGames_bouncing_highscore: 69
+        fleaGames_dodging_played: true
+        fleaGames_dodging_highscore: 96
+  give_consumables:
+    data:
+      playerData:
+        GrowstoneState: 3
+        GrowstoneTimer: 1.0
+        Collectables:
+          savedData:
+          - Name: Rosary_Set_Frayed
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Rosary_Set_Small
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Rosary_Set_Medium
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Rosary_Set_Large
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Rosary_Set_Huge_White
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Shard Pouch
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Great Shard
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Pristine Core
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Fixer Idol
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Silk Grub
+            Data:
+              Amount: 100
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+          - Name: Growstone
+            Data:
+              Amount: 1
+              IsSeenMask: 1
+              AmountWhileHidden: 0
+  give_farsight:
+    data:
+      playerData:
+        ConstructedFarsight: true
   quill_none:
     data:
       playerData:
@@ -945,38 +1043,14 @@ cheats:
             ID: Collectable Item Pickup - Quill Purple
             Value: true
             Mutator: 0
-  easy_dice_game_win:
+  silk_overdrive:
     data:
       playerData:
-        dicePilgrimBank: 0
-  easy_flea_games_win:
-    data:
-      playerData:
-        fleaGames_juggling_played: true
-        fleaGames_juggling_highscore: 56
-        fleaGames_bouncing_played: true
-        fleaGames_bouncing_highscore: 69
-        fleaGames_dodging_played: true
-        fleaGames_dodging_highscore: 96
-  complete_mushroom_quest:
-    data:
-      playerData:
-        MushroomQuestFound1: true
-        MushroomQuestFound2: true
-        MushroomQuestFound3: true
-        MushroomQuestFound4: true
-        MushroomQuestFound5: true
-        MushroomQuestFound6: true
-        MushroomQuestFound7: true
-        QuestCompletionData:
-          savedData:
-          - Name: Mr Mushroom
-            Data:
-              HasBeenSeen: true
-              IsAccepted: true
-              CompletedCount: 0
-              IsCompleted: true
-              WasEverCompleted: false
+        silk: 27
+        silkMax: 27
+        silkRegenMax: 27
+        HasSeenSilkHearts: true
+        IsSilkSpoolBroken: false
   unlock_terminus_door:
     data:
       playerData:
@@ -1028,72 +1102,6 @@ cheats:
             ID: Bellshrine Sequence
             Value: 3
             Mutator: 0
-  give_consumables:
-    data:
-      playerData:
-        GrowstoneState: 3
-        GrowstoneTimer: 1.0
-        Collectables:
-          savedData:
-          - Name: Rosary_Set_Frayed
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Rosary_Set_Small
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Rosary_Set_Medium
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Rosary_Set_Large
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Rosary_Set_Huge_White
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Shard Pouch
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Great Shard
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Pristine Core
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Fixer Idol
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Silk Grub
-            Data:
-              Amount: 100
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-          - Name: Growstone
-            Data:
-              Amount: 1
-              IsSeenMask: 1
-              AmountWhileHidden: 0
-  give_farsight:
-    data:
-      playerData:
-        ConstructedFarsight: true
 reference:
   full_crests:
     playerData:
