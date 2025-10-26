@@ -64,6 +64,18 @@ module Silkedit::Cheat
       :success
     end
 
+    def all_crests
+      cheatdata = Silkedit::Cheat::SilksongCheats.module_eval { @cheatdata }
+      Rbcli.log.info "Applying cheat all_crests", 'CHEATS'
+      Silkedit::Cheat.merge_cheat(@data, cheatdata['reference']['all_crests'], should_merge_arrays: true)
+      %w[CurrentCrestID PreviousCrestID].each do |equip|
+        %w[Hunter Hunter_v2].each do |hunter_crest_version|
+          @data['playerData'][equip] = 'Hunter_v3' if @data['playerData'][equip] == hunter_crest_version
+        end
+      end
+      :success
+    end
+
     def all_crest_unlocks
       Rbcli.log.info 'Applying cheat all_crest_unlocks', 'CHEATS'
       cheatdata = Silkedit::Cheat::SilksongCheats.module_eval { @cheatdata }
@@ -75,6 +87,14 @@ module Silkedit::Cheat
           crest['Data']['Slots'] = newcrest['Data']['Slots'] if newcrest.key?('Data') && newcrest['Data'].key?('Slots')
         end
         crest['Data']['Slots'].each { |slot| slot['IsUnlocked'] = true }
+      end
+      :success
+    end
+
+    def overcharge_tools
+      Rbcli.log.info "Applying cheat overcharge_tools", 'CHEATS'
+      @data['playerData']['Tools']['savedData'].each do |tool|
+        tool['Data']['AmountLeft'] = 1000
       end
       :success
     end
