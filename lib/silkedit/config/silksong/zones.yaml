@@ -1006,6 +1006,19 @@ memory:
     soft_reqs: {}
     hard_reqs: {}
     min_act: 1
+  silkheart_1:
+    data:
+      playerData:
+        atBench: false
+        respawnScene: Memory_Silk_Heart_BellBeast
+        mapZone: 33
+        extraRestZone: 0
+        respawnMarkerName: Death Respawn Marker
+        respawnType: 0
+        hazardRespawnFacing: 0
+    soft_reqs: {}
+    hard_reqs: {}
+    min_act: 1
 mossgrove:
   bonebottom:
     data:
