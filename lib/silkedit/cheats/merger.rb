@@ -51,7 +51,7 @@ module Silkedit::Cheat
     end
     # First determine the primary key(s) for the object
     pkeys = []
-    [%w[Name], %w[sceneData ID]].each do |pkey_arr|
+    [%w[Name], %w[SceneName ID]].each do |pkey_arr|
       pkeys = pkey_arr if pkey_arr.all? { |k| data.first.key?(k) || cheat.first.key?(k) }
     end
     cheat.each do |c|
