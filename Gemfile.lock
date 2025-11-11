@@ -120,6 +120,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-24
+  arm64-darwin-25
   x86_64-linux
 
 DEPENDENCIES
@@ -129,4 +130,4 @@ DEPENDENCIES
   silkedit!
 
 BUNDLED WITH
-   2.7.1
+   2.7.2
