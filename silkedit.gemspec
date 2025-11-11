@@ -40,7 +40,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'http', '5.3.1'
   spec.add_dependency 'json', '2.16.0'
   spec.add_dependency 'nokogiri', '1.18.10'
-  spec.add_dependency 'openssl', '3.3.1'
+  spec.add_dependency 'openssl', '3.3.2'
   spec.add_dependency 'rbcli', '0.4.3'
   spec.add_dependency 'yaml', '0.4.0'
   spec.add_dependency 'zlib', '3.2.2'
