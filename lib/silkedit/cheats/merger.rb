@@ -96,9 +96,9 @@ module Silkedit::Cheat
   end
 
   def self.get_game_act(data)
-    if data['playerData']['act3MapUpdated'] || data['playerData']['act3_wokeUp']
+    if %w[act3MapUpdated act3_wokeup].any? { |c| data['playerData'][c] }
       3
-    elsif data['playerData']['act2Started'] || data['playerData']['defeatedLastJudge']
+    elsif %w[act2started visitedCitadel defeatedLastJudge].any? { |c| data['playerData'][c] }
       2
     else
       1
