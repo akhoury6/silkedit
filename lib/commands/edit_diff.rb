@@ -20,8 +20,8 @@ Rbcli.command 'diff' do
   description 'Diffs the current savegame against the latest backup, a specified backup, or a different save'
   parameter :backup_seq, 'Backup number to diff against', short: :b, type: :integer
   parameter :othersave, 'Other save number to diff against', short: :o, type: :integer
-  parameter :yaml_output, 'Output in YAML instead of a Ruby object', short: :y, type: :boolean
-
+  parameter :yaml, 'Output in YAML instead of a Ruby object', short: :y, type: :boolean
+  parameter :monochrome, 'Disable color output', short: :m, type: :boolean
 
   action do |opts, params, args, config, env|
     new = Silkedit::Savegame::SaveFile.new(:silksong, opts[:savenum])
@@ -35,7 +35,7 @@ Rbcli.command 'diff' do
     end
 
     diff = Silkedit::Savegame::Diff.mkdiff(old.data, new.data)
-    Rbcli.log.info Silkedit::Savegame::Diff.parse_diff(diff, yaml_output: params[:yaml_output])
+    Rbcli.log.info Silkedit::Savegame::Diff.parse_diff(diff, yaml_output: params[:yaml], color: !params[:monochrome])
 
     # s.save_as_json
     # FileUtils.mv(s.json_filename, "#{s.json_filename}.old")

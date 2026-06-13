@@ -59,7 +59,7 @@ module Silkedit::Savegame
       return diff
     end
 
-    def self.parse_diff(obj, yaml_output: false)
+    def self.parse_diff(obj, yaml_output: false, color: false)
       if yaml_output
         sio = StringIO.new
         YAML.dump(obj, sio)
@@ -70,33 +70,33 @@ module Silkedit::Savegame
           while i < line.length
             blank_leadup = line[0..i-1].chars.map { |c| c == ' ' }.all?
             if line[i] == '-' && blank_leadup
-              colored_string += line[i].colorize(:yellow)
+              colored_string += (color ? line[i].colorize(:yellow) : line[i])
               i += 1
             elsif line[i] == ':' && (blank_leadup || line[0..i-1].sub('-', '').chars.map { |c| c == ' ' }.all?)
               j = i + line[i+1..-1].index(':')
-              colored_string += line[i..j].colorize(:magenta)
+              colored_string += (color ? line[i..j].colorize(:magenta) : line[i..j])
               i += j - i + 1
             elsif line[i].match(%r{[\"\w]}) && line[i+1..-1].include?(':')
               j = i + line[i+1..-1].index(':')
-              colored_string += line[i..j].colorize(:red)
+              colored_string += (color ? line[i..j].colorize(:red) : line[i..j])
               i += j - i + 1
             elsif line[i].match(%r{\d}) && line[i..-2].chars.map { |c| c.match(%r{\d}) }.all?
-              colored_string += line[i..-2].colorize(:blue)
+              colored_string += (color ? line[i..-2].colorize(:blue) : line[i..-2])
               i = line.length - 1
             elsif line[i..i + 2] == 'nil'
-              colored_string += line[i..i + 2].colorize(:yellow)
+              colored_string += (color ? line[i..i + 2].colorize(:yellow) : line[i..i + 2])
               i += 3
             elsif line[i..i + 3] == 'true'
-              colored_string += line[i..i + 3].colorize(:yellow)
+              colored_string += (color ? line[i..i + 3].colorize(:yellow) : line[i..i + 3])
               i += 4
             elsif line[i..i + 4] == 'false'
-              colored_string += line[i..i + 4].colorize(:yellow)
+              colored_string += (color ? line[i..i + 4].colorize(:yellow) : line[i..i + 4])
               i += 5
             elsif line[i].match(%r{[\"\w]})
-              colored_string += line[i..-2].colorize(:green)
+              colored_string += (color ? line[i..-2].colorize(:green) : line[i..-2])
               i = line.length - 1
             elsif line[i] == ':'
-              colored_string += line[i].colorize(:yellow)
+              colored_string += (color ? line[i].colorize(:yellow) : line[i])
               i += 1
             else
               colored_string += line[i]
@@ -126,26 +126,26 @@ module Silkedit::Savegame
           end
           capture += '"'
           color = sio.string[i + cnt + 2] == '=' ? :red : :green
-          colored_string += capture.colorize(color)
+          colored_string += (color ? capture.colorize(color) : capture)
           i += cnt + 1
         elsif sio.string[i..i + 1] == '=>'
-          colored_string += sio.string[i..i + 1].colorize(:yellow)
+          colored_string += (color ? sio.string[i..i + 1].colorize(:yellow) : sio.string[i..i + 1])
           i += 2
         elsif sio.string[i].to_i.to_s == sio.string[i]
-          colored_string += sio.string[i].colorize(:light_blue)
+          colored_string += (color ? sio.string[i].colorize(:light_blue) : sio.string[i])
           i += 1
         elsif sio.string[i..i + 2] == 'nil'
-          colored_string += sio.string[i..i + 2].colorize(:yellow)
+          colored_string += (color ? sio.string[i..i + 2].colorize(:yellow) : sio.string[i..i + 2])
           i += 3
         elsif sio.string[i..i + 3] == 'true'
-          colored_string += sio.string[i..i + 3].colorize(:yellow)
+          colored_string += (color ? sio.string[i..i + 3].colorize(:yellow) : sio.string[i..i + 3])
           i += 4
         elsif sio.string[i..i + 4] == 'false'
-          colored_string += sio.string[i..i + 4].colorize(:yellow)
+          colored_string += (color ? sio.string[i..i + 4].colorize(:yellow) : sio.string[i..i + 4])
           i += 5
         elsif ['new:', 'old:'].include?(sio.string[i..i + 3])
-          colored_string += sio.string[i..i + 2].colorize(:magenta)
-          colored_string += sio.string[i + 3].colorize(:yellow)
+          colored_string += (color ? sio.string[i..i + 2].colorize(:magenta) : sio.string[i..i + 2])
+          colored_string += (color ? sio.string[i + 3].colorize(:yellow) : sio.string[i + 3])
           i += 4
         else
           colored_string += sio.string[i]
